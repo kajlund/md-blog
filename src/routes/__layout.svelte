@@ -1,9 +1,11 @@
 <script>
   import Nav from "$lib/Nav.svelte"
+  import "../../static/styles/reset.css"
+  import "../../static/styles/global.css"
 </script>
 
+<Nav />
 <div class="container">
-  <Nav />
   <slot />
 </div>
 
