@@ -13,6 +13,7 @@ I am Kaj Lund. I've been working as a professional software developer since 1998
 
 - [Demos Section](./demos.md)
 - [Learning section](./learn.md)
+- [State of JavaScript in 2020](https://2020.stateofjs.com/)
 - [The Top Frontend Development Links of 2019](https://superhighway.dev/frontend-2019)
 - [State of JavaScript in 2019](https://2019.stateofjs.com/)
 - [State of CSS in 2019](https://2019.stateofcss.com/)
@@ -20,6 +21,7 @@ I am Kaj Lund. I've been working as a professional software developer since 1998
 - [The 2018 Web Developer Roadmap](https://codeburst.io/the-2018-web-developer-roadmap-826b1b806e8d)
 - [JavaScript Rising Stars 2018](https://risingstars.js.org/2018/en/)
 - [The State of JS 2017](https://2017.stateofjs.com/2017/front-end/results/)
+- [What the f*ck JavaScript?](https://github.com/denysdovhan/wtfjs#readme)
 
 ## 2020
 
