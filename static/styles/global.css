@@ -121,8 +121,8 @@ small,
 .container {
 	width: 40vw;
 	max-width: var(--max-width);
-	border: 5px solid var(--primary-500);
-	border-radius: var(--border-radius);
+	/* border: 5px solid var(--primary-500);
+	border-radius: var(--border-radius); */
 }
 
 .img {
