@@ -2,7 +2,7 @@
   <div class="nav-center">
     <!-- nav header -->
     <div class="nav-header">
-      <h4 class="logo">rannikko<span>hurri.net</span></h4>
+      <h4 class="logo">kajlund<span>.com</span></h4>
       <button type="button" class="nav-toggle">
         <i class="fas fa-bars"></i>
       </button>
