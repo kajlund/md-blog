@@ -16,6 +16,9 @@
         <a href="/blog">blog</a>
       </li>
       <li>
+        <a href="/resources">resources</a>
+      </li>
+      <li>
         <a href="/about">about</a>
       </li>
     </ul>
