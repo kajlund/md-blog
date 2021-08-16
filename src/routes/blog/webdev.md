@@ -1,6 +1,7 @@
 ---
 title: Web Development 101
 createdAt: 2021-08-14
+description: An overview of useful technologies and skills for web development
 ---
 
 # {title}

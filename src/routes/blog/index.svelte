@@ -10,11 +10,10 @@
 			})
 		);
 	}
-	//  console.log(body)
 
 	export const load = async () => {
 		const posts = await Promise.all(body);
-		// console.log(posts);
+	  // console.log(posts);
 		return {
 			props: {
 				posts
@@ -35,7 +34,14 @@
 	{#each dateSortedPosts as { path, metadata: { title, createdAt } }}
 		<li>
 			<a href={`/blog/${path.replace('.md', '')}`}>{title}</a>
-			{new Date(createdAt).toDateString()}
+			<span class="txt-light">{new Date(createdAt).toDateString()}</span>
 		</li>
 	{/each}
 </ul>
+
+<style>
+  .txt-light {
+    font-size: .8rem;;
+    color: #ccc;
+  }
+</style>
