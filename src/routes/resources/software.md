@@ -1,8 +1,11 @@
 ---
 title: Software
-lang: en-US
-description: Useful software
+description: Useful software for development and team work
 ---
+# {title}
+
+*{description}*
+
 
 ## CLI/Terminal Emulators
 
@@ -22,14 +25,14 @@ description: Useful software
 - [AppVeyor](https://www.appveyor.com/)
 - [Buddy](https://buddy.works/)
 - [CircleCI](https://circleci.com/)
-- #128077; [CodeShip](https://codeship.com/)
+- [CodeShip](https://codeship.com/)
 - [Deploy](https://www.deployhq.com/)
 - [GoCD](https://www.gocd.org/) Open source continuous delivery server to model and visualize complex workflows with ease
 - [Jenkins](http://jenkins-ci.org/)
 - [node-build-monitor](http://marcells.github.io/node-build-monitor/)
 - [Semaphore](https://semaphoreci.com/)
 - [TeamCity](https://www.jetbrains.com/teamcity/)
-- #128077; [Travis CI](https://travis-ci.org/)
+- [Travis CI](https://travis-ci.org/)
 
 ## Design
 
@@ -42,19 +45,25 @@ description: Useful software
 - [Gliffy](https://www.gliffy.com/) - Collaborate on flowcharts, org charts, UML, network diagrams & more.
 - [Draw.io](https://www.draw.io/) flowchart maker and online diagramming
 - [Lovely Charts](http://www.lovelycharts.com/)
+- [Markvis](https://markvis.js.org/#/) - Make visualization in markdown.
+- [Mermaid](https://github.com/knsv/mermaid) - A Javascript based diagramming and charting tool that uses Markdown-inspired text definitions and a renderer to create and modify complex diagrams.
 - [mindmeister](https://www.mindmeister.com/) - Collaborative mind mapping
 
 ## Documentation
 
+- [CMS.js](https://github.com/chrisdiana/cms.js) - A fully Client-side, JavaScript Markdown Site generator
 - [Docz](https://www.docz.site/) - Documentation tool built on [Gatsby](https://www.gatsbyjs.org/)
-  - [Gitbook](https://www.gitbook.com/) - Document Everything! For you, your users and your team.
-- <span>#128077;</span> [Draft](https://draftin.com/) - Hosted markdown-based documentation tool supporting collaboration. 
+- [Draft](https://draftin.com/) - Hosted markdown-based documentation tool supporting collaboration. 
 - [HUGO](https://gohugo.io/) - A fast and modern static website engine
 - [Joplin](http://joplin.cozic.net/) - An open source note taking and to-do application with synchronisation capabilities.
+- [Logdown](http://logdown.com/) - A hosted Mardown blogging platformplatform
+- [MarkText](https://github.com/marktext/marktext) - A simple and elegant open-source markdown editor that focused on speed and usability.
 - [Miro](https://miro.com/) is a collaborative online whiteboard platform designed for remote and distributed teams.
 - [Mindomo](https://www.mindomo.com/) - Collaborative mind maps, concept maps, outlines, and Gantt charts
-- #128077; [Notable](https://notable.md/) - The Markdown-based note-taking app that doesn't suck. I use Notable as my #1 tool for ducumentation. It works perfectly on both Windows and \*nix using Google Drive to host and sync my Markdown files.
+- [Notable](https://notable.md/) - The Markdown-based note-taking app that doesn't suck. I use Notable as my #1 tool for ducumentation. It works perfectly on both Windows and \*nix using Google Drive to host and sync my Markdown files.
 - [Notion](https://www.notion.so/) - Write, plan, collaborate, and get organized. Notion is all you need.
+- [StackEdit](https://stackedit.io/) - In-browser Markdown editor
+- [Typora](https://typora.io/) - A truly minimal Markdown editor.
 - [Vuepress](https://vuepress.vuejs.org/) - Vue-powered Static Site Generator
 
 ### Wiki
@@ -66,6 +75,7 @@ description: Useful software
 - [Node Wiki](https://github.com/nhoss2/nodewiki)
 - [Scribble](http://www.tryscribble.com/)
 - [TiddlyWiki](https://tiddlywiki.com/) - A non-linear personal web notebook
+- [TorchPad](http://torchpad.com/) - The Simplest way to make a Markdown wiki
 - [Wiki.js](https://wiki.js.org/) - An open source, modern and powerful wiki app
   built on Node.js, Git and Markdown
 - [XWiki](http://www.xwiki.org/xwiki/bin/view/Main/) - XWiki offers a generic platform for developing projects and collaborative applications using the wiki paradigm.
@@ -80,8 +90,7 @@ Check out [this fine article](https://websitesetup.org/best-ide-software/) on ID
 - [WebStorm](https://www.jetbrains.com/webstorm/) by JetBrains is a lightweight yet powerful IDE, perfectly equipped for complex client-side development and server-side development with Node.js
 - [Nuclide](http://nuclide.io/) - A unified developer experience for web and mobile development, built as a suite of packages on top of Atom to provide hackability and the support of an active community.
 - [Sublime Text](http://www.sublimetext.com/) is a sophisticated text editor for code, markup and prose.
-
-- #128077; [Visual Studio Code](https://code.visualstudio.com/)
+- [Visual Studio Code](https://code.visualstudio.com/)
   - [Awesome VSCode](https://github.com/viatsko/awesome-vscode)
 - [Xi](https://xi-editor.io/) - Fast, reliable editor for every platform
 
@@ -105,13 +114,15 @@ Check out [this fine article](https://websitesetup.org/best-ide-software/) on ID
 
 - [HTML Formatter](https://htmlformatter.com/)
 
+
+
 ## Graphics
 
 - [PIXLR](https://pixlr.com/)
 
 ## Hosting
 
-- #128077; [Digital Ocean](https://www.digitalocean.com/)
+- [Digital Ocean](https://www.digitalocean.com/)
 - [Heroku](https://www.heroku.com/)
 - [linode](https://www.linode.com/)
 - [Netlify](https://netlify.com)
@@ -141,8 +152,11 @@ Check out [this fine article](https://websitesetup.org/best-ide-software/) on ID
 
 ## Presentations
 
+- [Backslide](https://github.com/sinedied/backslide) - CLI tool for making HTML presentations with Remark.js using Markdown
+- [Bedecked](https://github.com/jtrussell/bedecked) - Turn Markdown files into html presentations
 - [Bespoke.js](http://markdalgleish.com/projects/bespoke.js/) - DIY Presentation Micro-Framework
 - [Blazon](https://presentboldly.com) - create, deliver, maintain, and share beautiful technical presentations
+- [Marp](https://marp.app/) - Markdown Presentation Ecosystem. Create beautiful slide decks using an intuitive Markdown experience
 - [Pretzi](https://prezi.com/)
 - [Slides](http://slides.com/) - creating, presenting and sharing slide decks.\* [Swipe](https://www.swipe.to) is an online tool for creating presentations using Markdown.
 - [Slidr.io](http://slidr.io/) - Hassle free slidedeck hosting (pdf)
