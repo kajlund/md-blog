@@ -355,6 +355,11 @@ nav {
 		height: auto;
 		display: flex;
 	}
+
+	.links li {
+		padding-bottom: 3px;
+	}
+
 	.links a {
 		padding: 0;
 		margin: 0 0.5rem;

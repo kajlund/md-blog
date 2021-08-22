@@ -1,3 +1,13 @@
+<script context="module">
+  //export const hydrate="dev"
+  //export const router="browser"
+  //export const prerender=true
+</script>
+
+<svelte:head>
+
+  <title>About - kajlund.com</title>
+</svelte:head>
 ---
 title: About the Site
 lang: en-US
@@ -8,7 +18,7 @@ Description: What's it about dude?
 # {title}
 
 <div class="presentation">
-  <img src="/img/lukamannenmercury.jpg" alt="Photo of LuKa">
+  <img src="img/lukamannenmercury.jpg" alt="Photo of LuKa">
   <p class="description">Hi there! I am Kaj Lund. I live on the Finnish west coast and have been working as a professional software developer since 1998. The last 10 years mainly with fullstack web development and especially building APIs using Node.js.</p>
 </div>
 
@@ -24,8 +34,7 @@ Description: What's it about dude?
 - [The 2018 Web Developer Roadmap](https://codeburst.io/the-2018-web-developer-roadmap-826b1b806e8d)
 - [JavaScript Rising Stars 2018](https://risingstars.js.org/2018/en/)
 - [The State of JS 2017](https://2017.stateofjs.com/2017/front-end/results/)
-- [What the f*ck JavaScript?](https://github.com/denysdovhan/wtfjs#readme)
-
+- [What the f\*ck JavaScript?](https://github.com/denysdovhan/wtfjs#readme)
 
 ## History
 
@@ -34,7 +43,7 @@ Description: What's it about dude?
 - Look at learning Svelte.js and SvelteKit. This site is actually built using those tools.
 - Back to School
 - Worked with Express as opposed to Hapi.js for Node.js development
-  
+
 #### 2020
 
 - Learn enough [Golang](https://golang.org/) to be dangerous
@@ -63,7 +72,7 @@ Themes are Code-Quality (Testing, Documentation), REST alternatives and Client-S
   .presentation {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start; 
+    align-items: flex-start;
     margin-bottom: 2rem;
   }
 
