@@ -1,13 +1,3 @@
-<script context="module">
-  //export const hydrate="dev"
-  //export const router="browser"
-  //export const prerender=true
-</script>
-
-<svelte:head>
-
-  <title>About - kajlund.com</title>
-</svelte:head>
 ---
 title: About the Site
 lang: en-US
@@ -18,7 +8,7 @@ Description: What's it about dude?
 # {title}
 
 <div class="presentation">
-  <img src="img/lukamannenmercury.jpg" alt="Photo of LuKa">
+  <img src="img/lukamannenmercury.jpg" alt="LuKa">
   <p class="description">Hi there! I am Kaj Lund. I live on the Finnish west coast and have been working as a professional software developer since 1998. The last 10 years mainly with fullstack web development and especially building APIs using Node.js.</p>
 </div>
 
