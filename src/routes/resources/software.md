@@ -146,9 +146,23 @@ Check out [this fine article](https://websitesetup.org/best-ide-software/) on ID
 - [Visualping](https://visualping.io/) Monitor webpages
 - [Forestry](https://forestry.io/#/) - Sync your Jekyll, Hugo or VuePress site.
 
-## Monitoring and Analytics
+## Monitoring, Logging and Analytics
 
+- [DataDog](https://www.datadoghq.com) - Proactively Monitor Node.js Application Health
 - [Grafana](https://grafana.com/)
+- [Graylog](https://www.graylog.org/)
+- [Loggly](https://www.loggly.com/) - Cloud-based logging service
+- [LogRocket](https://logrocket.com/) - LogRocket lets you replay what users do on your site, helping you reproduce bugs and fix issues faster.
+- [Opbeat](https://opbeat.com/) - Performance monitoring for developers. Server-side and client-side.
+- [opsee](https://opsee.com/guides/nodechecks/) - Effective Health Checks in Node.js
+- [Papertrail](https://papertrailapp.com/) Free 100 MB/month 7 day retention
+- [Raygun](https://raygun.io/) - Advanced Error Tracking
+- [Rollbar](https://rollbar.com/) - Full-stack error monitoring for all apps in any language
+- [Scalyr](https://www.scalyr.com/product/centralized-log-management) - Manage server logs from a central location.
+- [Sentry](https://getsentry.com/welcome/) - Provides real-time crash reporting for your web apps
+- [Trace](https://trace.risingstack.com/) - Anomaly detection, distributed transaction tracking and process monitoring for your Nodejs services.
+- [Track.js](https://trackjs.com/) - JavaScript Error Monitoring
+
 
 ## Presentations
 
@@ -188,8 +202,28 @@ Check out [this fine article](https://websitesetup.org/best-ide-software/) on ID
 
 ## Programming Tools
 
+- [BCrypt Calculator online](https://www.dailycred.com/article/bcrypt-calculator)
 - [Diffchecker](https://www.diffchecker.com/) - an online diff tool to compare text differences between two text files online
 - [Meld](http://meldmerge.org/) is an open source cross-platform diff tool
+- [Mackaroo](https://mockaroo.com/) - realistic data mockup generator
+- [Strong Passwordgenerator](https://passwordsgenerator.net/)
+
+#### RegEx
+
+- [Scrimba - Learn Regular Expressions](https://scrimba.com/g/gregularexpressions)
+- [learn-regex](https://github.com/zeeshanu/learn-regex)
+- [regexly](https://regexly.chipto.io/)
+- [Regulex](https://jex.im/regulex/)
+- [Regular Expressions 101](https://regex101.com/)
+- [Regularish](https://regularish.gavinhungry.io/)
+- [RegExr](http://www.regexr.com/)
+
+
+#### Transpilers
+
+- [Babel](https://babeljs.io/)
+- [Traceur](https://github.com/google/traceur-compiler)
+- [TypeScript Compiler](https://github.com/theblacksmith/typescript-compiler)
 
 
 ## Prototyping

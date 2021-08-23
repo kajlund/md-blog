@@ -23,6 +23,7 @@ Description: What's it about dude?
 - [State of JavaScript in 2018](https://stateofjs.com/)
 - [The 2018 Web Developer Roadmap](https://codeburst.io/the-2018-web-developer-roadmap-826b1b806e8d)
 - [JavaScript Rising Stars 2018](https://risingstars.js.org/2018/en/)
+- [The Front-End Tooling Survey 2018](https://ashleynolan.co.uk/blog/frontend-tooling-survey-2018-results)
 - [The State of JS 2017](https://2017.stateofjs.com/2017/front-end/results/)
 - [What the f\*ck JavaScript?](https://github.com/denysdovhan/wtfjs#readme)
 

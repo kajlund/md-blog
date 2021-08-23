@@ -237,6 +237,13 @@ description: Various JS frameworks and libraries
 - [number-precision](https://github.com/nefe/number-precision) -1K tiny & fast lib for doing addition, subtraction, multiplication and division operations precisely
 - [Numeral.js](http://numeraljs.com/) - A javascript library for formatting and manipulating numbers.
 
+## Package Managers
+
+- [Chocolatey](https://chocolatey.org/) the package manager for Windows
+- [npm](https://www.npmjs.com/)
+- [jspm](http://jspm.io/)
+- [Bower](http://bower.io/)
+
 ## Polyfills
 
 - [Polyfill.io](https://qa.polyfill.io/v2/docs/)
