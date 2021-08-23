@@ -47,7 +47,6 @@ Jasmine uses a built-in version of the expect styles.
 
 ## Http Calls
 
-- [httpbin](https://httpbin.org/) - A simple HTTP Request & Response Service.
 - [superagent](https://github.com/visionmedia/superagent) - Elegant & feature rich browser/node HTTP calls with a fluent API
 - [superfetch](https://github.com/luin/superfetch) - A super powerful node.js HTTP client with promises support.
 - [supertest](https://github.com/visionmedia/supertest) is a Super-agent driven library for testing node.js HTTP servers using a fluent API
@@ -56,6 +55,8 @@ Jasmine uses a built-in version of the expect styles.
 
 ## Mocks & Stubs
 
+- [httpbin.org](https://httpbin.org/) - A simple HTTP Request & Response Service.
+- [Json Generator](http://www.json-generator.com/) - Generate random data
 - [JsonStub](http://jsonstub.com/) - Fake your backend
 - [Mockable](https://www.mockable.io)
 - [Mock Server](http://www.mock-server.com/)

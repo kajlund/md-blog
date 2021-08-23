@@ -110,11 +110,11 @@ Check out [this fine article](https://websitesetup.org/best-ide-software/) on ID
 - [StackBlitz](https://stackblitz.com/) - Create, edit & deploy fullstack apps
 
 
-### Fotmatters and Linters
+### Formatters and Linters
 
-- [HTML Formatter](https://htmlformatter.com/)
-
-
+- [ESLint](https://eslint.org/) - The pluggable linting utility for JavaScript and JSX
+- [JSONLint](https://jsonlint.com/) is an online JSON validator
+- [W3C Markup Validation Service](http://validator.w3.org/)
 
 ## Graphics
 
@@ -185,6 +185,12 @@ Check out [this fine article](https://websitesetup.org/best-ide-software/) on ID
 - [LiquidPlanner](http://go.liquidplanner.com/plan-with-confidence/)
 - [Leankit](http://leankit.com/)
 - [Flowdock](https://www.flowdock.com/) seems to do similar things.
+
+## Programming Tools
+
+- [Diffchecker](https://www.diffchecker.com/) - an online diff tool to compare text differences between two text files online
+- [Meld](http://meldmerge.org/) is an open source cross-platform diff tool
+
 
 ## Prototyping
 

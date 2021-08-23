@@ -65,6 +65,15 @@ description: Various JS frameworks and libraries
 - [TinyDate](https://github.com/lukeed/tinydate) - A tiny (340B) reusable date formatter. Extremely fast!
 - [tinytime](https://github.com/aweary/tinytime) - A straightforward date and time formatter in less than 1kb
 
+## Documentation
+
+- [Documenting Tool for APIs](http://apidocjs.com/)
+- [Doclets](https://doclets.io/) - Beautiful Javascript API-Docs made simple
+- [dox](https://github.com/tj/dox) - JavaScript documentation generator for node using markdown and jsdoc
+- [jsDoc](https://jsdoc.app/)
+
+
+
 ## File System
 
 - [fdir](https://github.com/thecodrr/fdir) - The Fastest Directory Crawler & Globber for NodeJS
