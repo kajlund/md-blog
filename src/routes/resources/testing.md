@@ -55,6 +55,7 @@ Jasmine uses a built-in version of the expect styles.
 
 ## Mocks & Stubs
 
+- [gauge](https://gauge.org/) - Gauge is a free and open source test automation framework that takes the pain out of acceptance testing
 - [httpbin.org](https://httpbin.org/) - A simple HTTP Request & Response Service.
 - [Json Generator](http://www.json-generator.com/) - Generate random data
 - [JsonStub](http://jsonstub.com/) - Fake your backend
