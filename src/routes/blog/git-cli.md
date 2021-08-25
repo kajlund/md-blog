@@ -6,6 +6,8 @@ description: Recipes for using command-line Git.
 
 # {title}
 
+> {description}
+
 * [Axosoft - Learning Git](https://blog.axosoft.com/learning-git-repository/)
 * [Oh shit, git!](http://ohshitgit.com/)
 * [First Aid git](http://firstaidgit.io/#/)

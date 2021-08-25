@@ -6,6 +6,8 @@ description: An intro to the mobile web. Different style mobile web applications
 
 #{title}
 
+>{description}
+
 ::: warning
 Written back in March of 2014
 :::

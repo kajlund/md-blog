@@ -4,6 +4,10 @@ createdAt: 2018-05-01
 description: A short introduction to the concepts of NoSQL databases
 ---
 
+# {title}
+
+> {description}
+
 **NoSQL** has become a popular term but a more descriptive one would be **non-relational** for describing these kinds of database systems. Non-relational databases are not a new thing, they were commonly used in early mainframe computers.
 
 * **Schemaless** - Fields are not enforced between records allowing storage of different data with each record. This makes the database easier to maintain if the data model changes frequently.
