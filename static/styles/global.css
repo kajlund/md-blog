@@ -380,3 +380,11 @@ nav {
 		color: var(--primary-300);
 	}
 }
+
+pre {
+  font-family: Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;
+  color: #ccc;
+  background-color: #282c34;
+  border-radius: 1.1rem;
+  padding: 0.5rem 1rem;
+}
