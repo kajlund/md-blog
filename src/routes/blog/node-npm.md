@@ -130,6 +130,36 @@ You can use `npm audit` to verify that the packages you have installed are safe 
 
 Security warnings can be _high_, _low_ or _critical_. The critical ones should be addressed asap. To resolve issues try running `npm audit fix` or alternatively upgrade the packages one-by-one.
 
+## Deploying your package to npm
+
+- Check name, version  and that main points to your main file.
+- Scripts section can be removed if you don't have tests
+- Add a README.md-file describing the package
+
+#### Resources
+
+- [Official Docs](https://docs.npmjs.com/packages-and-modules/contributing-packages-to-the-registry)
+- [FreeCodecamp article](https://medium.freecodecamp.org/how-to-make-a-beautiful-tiny-npm-package-and-publish-it-2881d4307f78)
+
+```bash
+npm whoami
+
+npm login
+npm adduser
+
+show ver: npm version
+update ver of your pkg: npm version 1.0.1
+```
+
+#### Publishing your package
+
+- Before publish, verify package name is unique. Chances are your package name isn't available.
+- If you have private npm you can use your npm name or organization name to prefix the name. @mycompany/awesomepkg or @myname/awesomepkg.
+
+If you don't you explicitly need to add access=public param when publishing.
+`npm publish or npm publish --access=public`
+
+
 ## npm Scripting
 
 #### See also
