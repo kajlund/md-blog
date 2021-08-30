@@ -16,10 +16,10 @@
 			<li class:active={$page.path === '/'}>
 				<a href="/">home</a>
 			</li>
-			<li class:active={$page.path === '/blog'}>
+			<li class:active={$page.path.indexOf('/blog') === 0}>
 				<a href="/blog">blog</a>
 			</li>
-			<li class:active={$page.path === '/resources'}>
+			<li class:active={$page.path.indexOf('/resources') === 0}>
 				<a href="/resources">resources</a>
 			</li>
 			<li class:active={$page.path === '/about'}>
