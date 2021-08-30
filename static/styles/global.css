@@ -50,6 +50,8 @@ html {
 	--transition: 0.3s ease-in-out all;
 	--max-width: 1120px;
 	--fixed-width: 600px;
+	--header-height: 80px;
+	--content-top-margin: 86px;
 
 	/* Box Shadows */
 	--shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
@@ -64,6 +66,13 @@ body {
 	font-weight: 400;
 	line-height: 1.75;
 	color: var(--text-color);
+}
+
+header {
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	height: var(--header-height);
 }
 
 p {
@@ -122,6 +131,10 @@ nav ul {
 small,
 .text_small {
 	font-size: var(--small-text);
+}
+
+.content {
+  margin-top: var(--content-top-margin);
 }
 
 .container {

@@ -1,17 +1,21 @@
 <script>
-  import Nav from "$lib/Nav.svelte"
-  import "../../static/styles/reset.css"
-  import "../../static/styles/global.css"
+	import Nav from '$lib/Nav.svelte';
+	import '../../static/styles/reset.css';
+	import '../../static/styles/global.css';
 </script>
 
-<Nav />
-<div class="container">
-  <slot />
+<header>
+	<Nav />
+</header>
+<div class="content">
+	<div class="container">
+		<slot />
+	</div>
 </div>
 
 <style>
-  .container {
-    max-width: 600px;
-    margin: 50px auto;
-  }
+	.container {
+		max-width: 600px;
+		margin: 50px auto;
+	}
 </style>
