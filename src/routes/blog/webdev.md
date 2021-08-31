@@ -6,6 +6,8 @@ description: An overview of useful technologies and skills for web development
 
 # {title}
 
+> {description}
+
 ## General Internet Knowledge
 
 - [Hosting]()

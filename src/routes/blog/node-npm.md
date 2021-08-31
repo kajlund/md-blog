@@ -1,8 +1,12 @@
 ---
 title: NPM - The node package manager
 createdAt: 2018-12-26
-description: The Node Package Manager
+description: About NPM, the Node Package Manager
 ---
+
+# {title}
+
+> {description}
 
 [npm](https://www.npmjs.com/) is the standard package manager installed with Node.js. It consists of a command-line tool that gives you access to a world of javasckript libraries or so called packages.
 
@@ -132,7 +136,7 @@ Security warnings can be _high_, _low_ or _critical_. The critical ones should b
 
 ## Deploying your package to npm
 
-- Check name, version  and that main points to your main file.
+- Check name, version and that main points to your main file.
 - Scripts section can be removed if you don't have tests
 - Add a README.md-file describing the package
 
@@ -158,7 +162,6 @@ update ver of your pkg: npm version 1.0.1
 
 If you don't you explicitly need to add access=public param when publishing.
 `npm publish or npm publish --access=public`
-
 
 ## npm Scripting
 

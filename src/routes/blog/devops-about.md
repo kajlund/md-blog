@@ -4,25 +4,23 @@ createdAt: 2019-04-11
 description: An introduction to the DevOps field
 ---
 
-
 # {title}
 
 > {description}
 
-
 #### Resources
 
-* The Visible Ops Handbook, Continuous Delivery by Jez Humble & David Farley, Release It! by Michael Nygard, Effective DevOps by Jennifer Davis, Lean Software Development by Poppendieck, Web Operations by John Allspaw, The Practice of Cloud System Administration, The DevOps Handbook, Leading the Transformation - Applying Agile and DevOps Principles at Scale, The Phoenix Project
-* [Dev2Ops Website](http://dev2ops.org/)
-* [DevOps Days](https://devopsdays.org/), [Velocity](https://conferences.oreilly.com/velocity)
-* [Newsletter](https://www.devopsweekly.com/)
-* [Infrastructures.org](http://infrastructures.org/)
+- The Visible Ops Handbook, Continuous Delivery by Jez Humble & David Farley, Release It! by Michael Nygard, Effective DevOps by Jennifer Davis, Lean Software Development by Poppendieck, Web Operations by John Allspaw, The Practice of Cloud System Administration, The DevOps Handbook, Leading the Transformation - Applying Agile and DevOps Principles at Scale, The Phoenix Project
+- [Dev2Ops Website](http://dev2ops.org/)
+- [DevOps Days](https://devopsdays.org/), [Velocity](https://conferences.oreilly.com/velocity)
+- [Newsletter](https://www.devopsweekly.com/)
+- [Infrastructures.org](http://infrastructures.org/)
 
 ## What is DevOps?
 
-* The practice of operations and development engineers participating together in the entire service lifecycle, from design through the development process to production support.
-* Should tear down the walls between devs and ops
-* [What is DevOps article](https://theagileadmin.com/what-is-devops/)
+- The practice of operations and development engineers participating together in the entire service lifecycle, from design through the development process to production support.
+- Should tear down the walls between devs and ops
+- [What is DevOps article](https://theagileadmin.com/what-is-devops/)
 
 ### 5 Levels
 
@@ -34,7 +32,7 @@ description: An introduction to the DevOps field
 
 ## Why DevOps?
 
-* [Proven effective](https://puppet.com/resources/whitepaper/2015-state-devops-report) in improving both the IT and business outcomes.
+- [Proven effective](https://puppet.com/resources/whitepaper/2015-state-devops-report) in improving both the IT and business outcomes.
 
 1. High performing IT organizations deploy more frequently, fail less, and recover faster
 2. Lean management and continuous delivery practices help deliver values faster
@@ -44,36 +42,36 @@ description: An introduction to the DevOps field
 
 The 4 fundamental values to bring to a devops implementation.
 
-* Culture - Avoid Dev vs Ops
-* Automation - [popot](http://dev2ops.org/2010/02/people-over-process-over-tools/)
-* Measurement - MTTR, Cycle Time, Costs, Revenue
-* Sharing - Openess and transparancy drives Kaizen (Discrete continuous improvement)
+- Culture - Avoid Dev vs Ops
+- Automation - [popot](http://dev2ops.org/2010/02/people-over-process-over-tools/)
+- Measurement - MTTR, Cycle Time, Costs, Revenue
+- Sharing - Openess and transparancy drives Kaizen (Discrete continuous improvement)
 
 > That the word DevOps gets reduced to technology is a manifestation of how badly we need a cultural shift.
---Patrick DeBois
+> --Patrick DeBois
 
 See [article](https://blog.chef.io/2010/07/16/what-devops-means-to-me/), [devops culture](http://itrevolution.com/devops-culture-part-1/)
 
 ## Principles
 
-* [The 3 Ways](http://itrevolution.com/the-three-ways-principles-underpinning-devops/)
-* Use the 3 ways to implement processes and standards suitable for your team.
+- [The 3 Ways](http://itrevolution.com/the-three-ways-principles-underpinning-devops/)
+- Use the 3 ways to implement processes and standards suitable for your team.
 
 ### Systems thinking
 
-* Focus on the overall outcome of the **entire** pipeline or value chain. (Compare to optimizing code without knowing the bottleneck) - Concept to Cash.
-* Use systems thinking when planning how to measure outcome.
+- Focus on the overall outcome of the **entire** pipeline or value chain. (Compare to optimizing code without knowing the bottleneck) - Concept to Cash.
+- Use systems thinking when planning how to measure outcome.
 
- ### Amplifying feedback loops
+### Amplifying feedback loops
 
-* Short, effective feedback loops are key to effective product development and operations
+- Short, effective feedback loops are key to effective product development and operations
 
 ### Culture of continuous experimentation and learning
 
-* Focus on doing and experimenting
-* Actively try what works and what doesn't
-* Typical sayings in this area is: Working code wins, if it hurts, do it more and fail fast.
-* No one technology is a silver bullet.
+- Focus on doing and experimenting
+- Actively try what works and what doesn't
+- Typical sayings in this area is: Working code wins, if it hurts, do it more and fail fast.
+- No one technology is a silver bullet.
 
 ## 5 Most Prevalent devOps Methodologies
 
@@ -98,9 +96,9 @@ See [article](https://blog.chef.io/2010/07/16/what-devops-means-to-me/), [devops
 
 ## Tools
 
-* [DevOps toolchain](https://en.wikipedia.org/wiki/DevOps_toolchain)
-* Be careful when selecting tools. Each tool has a logistics tail
-* Criteria: Programmable, verifiable (events and metrics), well behaved (config in SCM-compatible format)
+- [DevOps toolchain](https://en.wikipedia.org/wiki/DevOps_toolchain)
+- Be careful when selecting tools. Each tool has a logistics tail
+- Criteria: Programmable, verifiable (events and metrics), well behaved (config in SCM-compatible format)
 
 ## Culture and Communication
 
@@ -108,15 +106,15 @@ See [article](https://blog.chef.io/2010/07/16/what-devops-means-to-me/), [devops
 
 ### Blameless Postmortems
 
-* A meeting that should be held within 48 hrs of the incident, if possible
-* Have a third party run the meeting
-* Goal is to avoid same or similar problems in the future
-* Make a description of the incident
-* Identify the root cause (five why's)
-* How the incident was stabilized or fixed
-* Make a timeline of events, including all actions taken
-* How the incident affected customers
-* Remediations and corrective actions with deadlines
+- A meeting that should be held within 48 hrs of the incident, if possible
+- Have a third party run the meeting
+- Goal is to avoid same or similar problems in the future
+- Make a description of the incident
+- Identify the root cause (five why's)
+- How the incident was stabilized or fixed
+- Make a timeline of events, including all actions taken
+- How the incident affected customers
+- Remediations and corrective actions with deadlines
 
 ### Transparent Uptime
 
@@ -143,38 +141,38 @@ Rules for Postmortem Communication:
 
 ### The Westrum Model
 
-* Pathological (power-oriented)
-* Bureaucratic (rule-oriented)
-* Generative (performance-oriented)
+- Pathological (power-oriented)
+- Bureaucratic (rule-oriented)
+- Generative (performance-oriented)
 
 Minimum viable process - Everybody onboard, remove unnecessary
 
 ### Management Best Practices
 
-* Independent, cross-functional teams
-* People first
-* Agile, lean processes
+- Independent, cross-functional teams
+- People first
+- Agile, lean processes
 
 ### Kaizen: Continuous improvement
 
-* Good processes bring good results
-* Go see for yourself (gemba)
-* Speak with data, manage by facts
-* Take action to contain and correct root causes
-* Work as a team
-* Kaizen is everybody's business
+- Good processes bring good results
+- Go see for yourself (gemba)
+- Speak with data, manage by facts
+- Take action to contain and correct root causes
+- Work as a team
+- Kaizen is everybody's business
 
 ## Building Blocks
 
-* Agile
-* Lean
-* ITIL, ITSM, SDLC
+- Agile
+- Lean
+- ITIL, ITSM, SDLC
 
 ### Agile
 
-* DevOps rooted in the Agile Software movement.
-* The Agile Manifesto
-* Frequent interrim deliverables. Sprints (Plan, Design, Build, Test, Review, Launch)
+- DevOps rooted in the Agile Software movement.
+- The Agile Manifesto
+- Frequent interrim deliverables. Sprints (Plan, Design, Build, Test, Review, Launch)
 
 ### Lean
 
@@ -215,15 +213,15 @@ Eric Ries - The Lean Startup adapted lean as:
 
 #### Lean Techniques
 
-* Kaizen - continuous improvements
-* Valuestream Mapping - Concept to cash
+- Kaizen - continuous improvements
+- Valuestream Mapping - Concept to cash
 
 CAMS to CALMS
 
-* Culture
-* Automation
-* Measurement
-* Sharing
+- Culture
+- Automation
+- Measurement
+- Sharing
 
 ### ITIL, ITSM and the SDLC
 
@@ -242,18 +240,18 @@ ITIL Phases:
 
 ### Infrastructure as code
 
-* A programmatic approach to infrastructure
-* AWS - JSON format called CloudFormation
+- A programmatic approach to infrastructure
+- AWS - JSON format called CloudFormation
 
 ### Configuration Management
 
-* Management of change control for system configuration after initial provision
-* Maintaining and upgrading the application and application dependencies
+- Management of change control for system configuration after initial provision
+- Maintaining and upgrading the application and application dependencies
 
 Approaches:
 
-* Imperative/Procedural - Commands necessary to produce desired state are defined and executed.
-* Declarative/functional - A desired state is defined, relying on the tool to configure a system to match that state.
+- Imperative/Procedural - Commands necessary to produce desired state are defined and executed.
+- Declarative/functional - A desired state is defined, relying on the tool to configure a system to match that state.
 
 > Idempotent - The ability to execute repeatedly, resulting in the same outcome.
 
@@ -263,37 +261,37 @@ See the [Golden image or Foil Ball](https://madstop.com/post/85950592485/golden-
 
 #### CM Tools
 
-* CFEngine
-* Puppet
-* [Chef](https://www.chef.io/)
-* Salt
-* [Ansible](https://www.ansible.com/)
+- CFEngine
+- Puppet
+- [Chef](https://www.chef.io/)
+- Salt
+- [Ansible](https://www.ansible.com/)
 
 #### Services Directory/State Tracking Tools
 
-* etcd
-* ZooKeeper
-* Consul
+- etcd
+- ZooKeeper
+- Consul
 
 #### Container Orchestration Tools
 
-* Dockersform
-* Kubernetes
-* Mesos
+- Dockersform
+- Kubernetes
+- Mesos
 
 #### Private Container Services
 
-* Rancher
-* Google Cloud Platform
-* Amazon Web Services ECS
+- Rancher
+- Google Cloud Platform
+- Amazon Web Services ECS
 
 ## CI & CD (Continuous Delivery)
 
-* Strive to automatically build, test and deploy on every commit.
+- Strive to automatically build, test and deploy on every commit.
 
-* Continuous Integration - Build and test frequently, ideally on every commit
-* Continuous Delivery - Additionally deploy to production-like environment and run automated integration and acceptance tests
-* Continuous Deployment - Additionally deploy automatically to production.
+- Continuous Integration - Build and test frequently, ideally on every commit
+- Continuous Delivery - Additionally deploy to production-like environment and run automated integration and acceptance tests
+- Continuous Deployment - Additionally deploy automatically to production.
 
 Benefits:
 
@@ -305,24 +303,24 @@ Benefits:
 
 > How "little" can you deliver?
 
-* The goal of continuous integration is that software is in a working state all the time - Jez Humble
+- The goal of continuous integration is that software is in a working state all the time - Jez Humble
 
 important practices:
 
-* Builds should pass the coffee test (less than 5 minutes)
-* Commit really small bits
-* Don't leave the build broken
-* Use a trunk-based development flow
-* Don't allow flaky tests. Fix them!
-* The build should return a status, a log, and an artifact
+- Builds should pass the coffee test (less than 5 minutes)
+- Commit really small bits
+- Don't leave the build broken
+- Use a trunk-based development flow
+- Don't allow flaky tests. Fix them!
+- The build should return a status, a log, and an artifact
 
 Continuous Delivery Pipeline:
 
-* Only build artifacts once
-* Artifacts should be immutable, checksums can help
-* Deployment should go to a copy of production
-* Stop deploys if a previous step fails
-* Deployments should be idempotent
+- Only build artifacts once
+- Artifacts should be immutable, checksums can help
+- Deployment should go to a copy of production
+- Stop deploys if a previous step fails
+- Deployments should be idempotent
 
 Trace a single code change through the pipeline and answer the following:
 1 Can you audit a single change and trace it through the pipeline? Cycle
@@ -341,22 +339,22 @@ Contnuous Delivery requires automated testing
 
 ### Tooling
 
-* VCS - git, github
-* CI - Jenkins, gocd, bamboo, teamcity, travisCI, CircleCI
-* Build - make/rake, maven, gulp, packer
-* Test - mocha, eslint, Robot, Selenium, sauce labs...
-* Artifacts repo - [Nexus](https://www.sonatype.com/nexus-repository-sonatype)
-* Deployment - Rundeck, Deployinator
+- VCS - git, github
+- CI - Jenkins, gocd, bamboo, teamcity, travisCI, CircleCI
+- Build - make/rake, maven, gulp, packer
+- Test - mocha, eslint, Robot, Selenium, sauce labs...
+- Artifacts repo - [Nexus](https://www.sonatype.com/nexus-repository-sonatype)
+- Deployment - Rundeck, Deployinator
 
 ## Site reliability engineering (SRE)
 
 Key success metrics
 
-* Deployment frequency
-* Lead time for changes
-* Change failure rate
-* Mean time to recovery MTTR (less than 1hrs)
-* Mean time between failures (MTBF)
+- Deployment frequency
+- Lead time for changes
+- Change failure rate
+- Mean time to recovery MTTR (less than 1hrs)
+- Mean time between failures (MTBF)
 
 A circuitbreaker detects a threshold of failures and prevents further failure by stopping an application from repeatedly executing that action to protect the system.
 
@@ -366,30 +364,30 @@ See [the twelwe factor app](https://12factor.net/) for good practices to avoid c
 
 ### [How Complex Systems Fail](http://web.mit.edu/2.75/resources/random/How%20Complex%20Systems%20Fail.pdf)
 
-* Change introduces new forms of failure
-* Complex Systems contain changing mixtures of failures latent within them.
-* All complex systems are always running in degraded mode
+- Change introduces new forms of failure
+- Complex Systems contain changing mixtures of failures latent within them.
+- All complex systems are always running in degraded mode
 
 ### Monitoring
 
-* Service performance and uptime
-* Software component metrics (port, process)
-* System metrics (time series)
-* App Metrics
-  * Error counts
-  * Number of logins
-* Performance
-* Security monitoring
+- Service performance and uptime
+- Software component metrics (port, process)
+- System metrics (time series)
+- App Metrics
+  - Error counts
+  - Number of logins
+- Performance
+- Security monitoring
 
 ### Logging
 
 The 5 Ws of Logging:
 
-* What happened
-* When did it happen
-* Where did it happen
-* Who was involved
-* Where did that entity come from
+- What happened
+- When did it happen
+- Where did it happen
+- Who was involved
+- Where did that entity come from
 
 Centralized logging: syslog -> Logstash
 
@@ -403,30 +401,29 @@ Principles:
 
 ### SRE Tools
 
-* Monitoring - [Nagios](https://www.nagios.org/),
-  * SaaS - Pingdom, Datadog, Netuitive, Ruxit, Librato
-  * Enterprise - New Relic, App Dynamics
-  * Open Source - graphite, grafana, statsd, ganglia, icinga, sensu
-  * Time Series DBs - InfluxDB, OpenTSDB
-  * Metrics libs - [metrics.dropwizard.io](https://metrics.dropwizard.io/4.0.0/)
-  * Containers - Prometheus, sysdig
-* Log Management
-  * splunk, the [ELK-stack](https://www.elastic.co/elk-stack)
-  * SaaS - [Pagerduty](https://www.pagerduty.com/), [victorops](https://portal.victorops.com/membership/#/)
-  *  Open Source - [Flapjack](https://flapjack.io/)
-* Status
-  * Saas - [Statuspage](https://www.statuspage.io/)
-* Command Dispatcher
-  * Rundeck, satstack, ansible
-  * rerun
-* Security
-  * [Gauntlet](https://gauntlet.io/en/services/sdlc-audit/)
+- Monitoring - [Nagios](https://www.nagios.org/),
+  - SaaS - Pingdom, Datadog, Netuitive, Ruxit, Librato
+  - Enterprise - New Relic, App Dynamics
+  - Open Source - graphite, grafana, statsd, ganglia, icinga, sensu
+  - Time Series DBs - InfluxDB, OpenTSDB
+  - Metrics libs - [metrics.dropwizard.io](https://metrics.dropwizard.io/4.0.0/)
+  - Containers - Prometheus, sysdig
+- Log Management
+  - splunk, the [ELK-stack](https://www.elastic.co/elk-stack)
+  - SaaS - [Pagerduty](https://www.pagerduty.com/), [victorops](https://portal.victorops.com/membership/#/)
+  - Open Source - [Flapjack](https://flapjack.io/)
+- Status
+  - Saas - [Statuspage](https://www.statuspage.io/)
+- Command Dispatcher
+  - Rundeck, satstack, ansible
+  - rerun
+- Security
+  - [Gauntlet](https://gauntlet.io/en/services/sdlc-audit/)
 
 ## Future
 
-* Cloud Computing
-* Containers
-* Serverless (Functions as a Service or nanocompute)
-* Security - [The Rugged Manifesto](https://ruggedsoftware.org/)
-  * Continuous Audit
-
+- Cloud Computing
+- Containers
+- Serverless (Functions as a Service or nanocompute)
+- Security - [The Rugged Manifesto](https://ruggedsoftware.org/)
+  - Continuous Audit

@@ -18,9 +18,9 @@ UI-Router is a state based library as opposed to the default routing library tha
 
 There are a couple of ways to install
 
-* Install via package manager `bower install angular-ui-router` or `npm install angular-ui-router` or `jspm install angular-ui-router`
-* Use a CDN like Cloudflare
-* Download from the github project
+- Install via package manager `bower install angular-ui-router` or `npm install angular-ui-router` or `jspm install angular-ui-router`
+- Use a CDN like Cloudflare
+- Download from the github project
 
 ### Setup UI_Router
 
@@ -45,32 +45,31 @@ Once you have access to the JavaScript file you need to add ui.router as a modul
 
 ```js
 (function () {
-    angular.module('app', ['ui.router']);
+	angular.module('app', ['ui.router']);
 })();
 ```
 
 ## Configuring States
 
 ```js
- angular.module('app').config(configRoutes);
+angular.module('app').config(configRoutes);
 
 function configRoutes($stateProvider, $urlRouterProvider) {
-    $urlRouterProvider.otherwise('/');
+	$urlRouterProvider.otherwise('/');
 
-    $stateProvider
-        .state('home', {
-            url: '/',
-            controller: 'HomeController',
-            controllerAs: 'vm',
-            templateUrl: 'app/home.html',
-            resolve: {
-                //allMyData will be injected into HomeController if promise resolved
-                allMyData: function (dataService) {
-                    return dataService.getAllMyData();
-                    //throw 'Emulate state change failure'
-                }
-            }
-        });
+	$stateProvider.state('home', {
+		url: '/',
+		controller: 'HomeController',
+		controllerAs: 'vm',
+		templateUrl: 'app/home.html',
+		resolve: {
+			//allMyData will be injected into HomeController if promise resolved
+			allMyData: function (dataService) {
+				return dataService.getAllMyData();
+				//throw 'Emulate state change failure'
+			}
+		}
+	});
 }
 ```
 
@@ -94,54 +93,57 @@ $state.get()    - retrieve a state object by name or all states
 
 ### Properties
 
-* current - currently active state
-* params  - object containing params for current state
+- current - currently active state
+- params - object containing params for current state
 
 ```js
-function MyController ($state, $log, allMyData) {
-    var vm = this;
-        vm.data = allMyData;
-    $log.debug('Activated state ', $state.current);
+function MyController($state, $log, allMyData) {
+	var vm = this;
+	vm.data = allMyData;
+	$log.debug('Activated state ', $state.current);
 
-    vm.refresh = function () {
-        $log.debug('Reloaded state ', $state.current);
-        $state.reload();
-    };
+	vm.refresh = function () {
+		$log.debug('Reloaded state ', $state.current);
+		$state.reload();
+	};
 }
 ```
 
 ### Events
 
-* $stateChangeError
-* $stateChangeStart
-* $stateChangeSuccess
-* $stateNotFound
+- $stateChangeError
+- $stateChangeStart
+- $stateChangeSuccess
+- $stateNotFound
 
 ```js
-function runApp ($rootScope, $log) {
-    $rootScope.$on('$stateChangeSuccess', function (event, toState, toParams, fromState, fromParams) {
-        $log.debug('Successfully changed state: ');
+function runApp($rootScope, $log) {
+	$rootScope.$on('$stateChangeSuccess', function (event, toState, toParams, fromState, fromParams) {
+		$log.debug('Successfully changed state: ');
 
-        $log.debug('event', event);
-        $log.debug('toState', toState);
-        $log.debug('toParams', toParams);
-        $log.debug('fromState', fromState);
-        $log.debug('fromParams', fromParams);
-    });
+		$log.debug('event', event);
+		$log.debug('toState', toState);
+		$log.debug('toParams', toParams);
+		$log.debug('fromState', fromState);
+		$log.debug('fromParams', fromParams);
+	});
 
-    $rootScope.$on('$stateNoFound', function (event, unfoundState, fromState, fromParams) {
-        $log.debug('Requested state not found: ', unfoundState);
-    });
+	$rootScope.$on('$stateNoFound', function (event, unfoundState, fromState, fromParams) {
+		$log.debug('Requested state not found: ', unfoundState);
+	});
 
-    $rootScope.$on('$stateChangeError', function (event, toState, toParams, fromState, fromParams, error) {
-        $log.debug('An error occurred while changing state: ', error);
+	$rootScope.$on(
+		'$stateChangeError',
+		function (event, toState, toParams, fromState, fromParams, error) {
+			$log.debug('An error occurred while changing state: ', error);
 
-        $log.debug('event', event);
-        $log.debug('toState', toState);
-        $log.debug('toParams', toParams);
-        $log.debug('fromState', fromState);
-        $log.debug('fromParams', fromParams);
-    });
+			$log.debug('event', event);
+			$log.debug('toState', toState);
+			$log.debug('toParams', toParams);
+			$log.debug('fromState', fromState);
+			$log.debug('fromParams', fromParams);
+		}
+	);
 }
 ```
 
@@ -230,7 +232,6 @@ Templates can be assigned via a function to the templateUrl property which makes
 
 The onEnter and onExit properties can hold callback functions that will execute when a state is entered or exited.
 
-
 ```js
 .state('triplist', {
     url: '/trips',
@@ -280,7 +281,6 @@ A specialiced version of parent state that can’t be activated directly. They a
 ### Multiple Named Views
 
 Allows you to define multiple views for a single state. This can be useful for separating views and controllers to keep them smaller and more maintainable and also if you need to reuse part of a view in different places throughout your app. You do this by defining a views object on the state configuration object.
-
 
 ```js
 .state('book', {
