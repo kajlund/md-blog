@@ -1,5 +1,6 @@
 <script>
   import { pageTitle } from '../stores';
+  import BackToTop from '$lib/BackToTop.svelte';
 	import Nav from '$lib/Nav.svelte';
 	import '../../static/styles/reset.css';
 	import '../../static/styles/global.css';
@@ -15,6 +16,7 @@
 <div class="content">
 	<div class="container">
 		<slot />
+    <BackToTop />
 	</div>
 </div>
 
