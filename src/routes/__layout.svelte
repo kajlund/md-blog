@@ -1,8 +1,13 @@
 <script>
+  import { pageTitle } from '../stores';
 	import Nav from '$lib/Nav.svelte';
 	import '../../static/styles/reset.css';
 	import '../../static/styles/global.css';
 </script>
+
+<svelte:head>
+  <title>{$pageTitle}</title>
+</svelte:head>
 
 <header>
 	<Nav />
