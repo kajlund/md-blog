@@ -5,8 +5,7 @@ description: UX resources
 
 # {title}
 
-*{description}*
-
+> {description}
 
 - [99Designs](https://99designs.com/)
 - [Codrops](http://tympanus.net/codrops/)
@@ -20,7 +19,6 @@ description: UX resources
 - [Material.io](https://material.io)
 - [Material Design Lite](http://www.getmdl.io/started/index.html)
 - [Wikipedia](https://en.wikipedia.org/wiki/Material_Design)
-
 
 ## Learning
 

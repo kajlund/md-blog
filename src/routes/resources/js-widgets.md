@@ -1,11 +1,11 @@
 ---
 title: Widgets
-description:  Widgets and Component Libraries for web development
+description: Widgets and Component Libraries for web development
 ---
 
 # {title}
 
-*{description}*
+> {description}
 
 ## Autocomplete & Select
 

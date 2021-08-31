@@ -2,10 +2,10 @@
 title: Software
 description: Useful software for development and team work
 ---
+
 # {title}
 
-*{description}*
-
+> {description}
 
 ## CLI/Terminal Emulators
 
@@ -18,7 +18,6 @@ description: Useful software for development and team work
 - [Discord](https://discord.com/)
 - [Slack](https://slack.com/) - A messaging app for teams
 - [Twist](https://twistapp.com/)
-
 
 ## Continuous Integration
 
@@ -53,7 +52,7 @@ description: Useful software for development and team work
 
 - [CMS.js](https://github.com/chrisdiana/cms.js) - A fully Client-side, JavaScript Markdown Site generator
 - [Docz](https://www.docz.site/) - Documentation tool built on [Gatsby](https://www.gatsbyjs.org/)
-- [Draft](https://draftin.com/) - Hosted markdown-based documentation tool supporting collaboration. 
+- [Draft](https://draftin.com/) - Hosted markdown-based documentation tool supporting collaboration.
 - [HUGO](https://gohugo.io/) - A fast and modern static website engine
 - [Joplin](http://joplin.cozic.net/) - An open source note taking and to-do application with synchronisation capabilities.
 - [Logdown](http://logdown.com/) - A hosted Mardown blogging platformplatform
@@ -70,7 +69,7 @@ description: Useful software for development and team work
 
 - [DocuWiki](https://www.dokuwiki.org/dokuwiki#)
 - [jingo](https://github.com/claudioc/jingo)
-- [Matterwiki](http://matterwiki.com/) - A simple and beautiful wiki for teams  
+- [Matterwiki](http://matterwiki.com/) - A simple and beautiful wiki for teams
 - [MDwiki](http://dynalon.github.io/mdwiki/#!index.md)
 - [Node Wiki](https://github.com/nhoss2/nodewiki)
 - [Scribble](http://www.tryscribble.com/)
@@ -79,7 +78,6 @@ description: Useful software for development and team work
 - [Wiki.js](https://wiki.js.org/) - An open source, modern and powerful wiki app
   built on Node.js, Git and Markdown
 - [XWiki](http://www.xwiki.org/xwiki/bin/view/Main/) - XWiki offers a generic platform for developing projects and collaborative applications using the wiki paradigm.
-
 
 ## Editors and IDEs
 
@@ -108,7 +106,6 @@ Check out [this fine article](https://websitesetup.org/best-ide-software/) on ID
 - [Plunker](http://plnkr.co/) is an online community for creating, collaborating on and sharing your web development ideas
 - [Repl.it](https://repl.it) - Run Server-side code in the browser.
 - [StackBlitz](https://stackblitz.com/) - Create, edit & deploy fullstack apps
-
 
 ### Formatters and Linters
 
@@ -162,7 +159,6 @@ Check out [this fine article](https://websitesetup.org/best-ide-software/) on ID
 - [Sentry](https://getsentry.com/welcome/) - Provides real-time crash reporting for your web apps
 - [Trace](https://trace.risingstack.com/) - Anomaly detection, distributed transaction tracking and process monitoring for your Nodejs services.
 - [Track.js](https://trackjs.com/) - JavaScript Error Monitoring
-
 
 ## Presentations
 
@@ -218,13 +214,11 @@ Check out [this fine article](https://websitesetup.org/best-ide-software/) on ID
 - [Regularish](https://regularish.gavinhungry.io/)
 - [RegExr](http://www.regexr.com/)
 
-
 #### Transpilers
 
 - [Babel](https://babeljs.io/)
 - [Traceur](https://github.com/google/traceur-compiler)
 - [TypeScript Compiler](https://github.com/theblacksmith/typescript-compiler)
-
 
 ## Prototyping
 
@@ -240,7 +234,7 @@ Check out [this fine article](https://websitesetup.org/best-ide-software/) on ID
 
 ## Schedulers
 
-- [Doodle](https://doodle.com/en/) - 
+- [Doodle](https://doodle.com/en/) -
 - [Rundeck](http://rundeck.org/) job scheduler
 - [Mindomo](https://www.mindomo.com/) - Collaborative mind maps, concept maps, outlines, and Gantt charts
 
@@ -250,17 +244,14 @@ Check out [this fine article](https://websitesetup.org/best-ide-software/) on ID
 - [Meld](http://meldmerge.org/) - Free diffing tool
 - [Sourcetree](https://www.sourcetreeapp.com/)
 
-
 ## Static Site builders
 
 - [HUGO](https://gohugo.io/) - A fast and modern static website engine
 - [Vuepress](https://vuepress.vuejs.org/) - Vue-powered Static Site Generator
 
-
 ## Testing
 
 - [Insomnia](https://insomnia.rest/) - Powerful HTTP toolbelt, in one intuitive app
-
 
 ## Time-tracking
 

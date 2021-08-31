@@ -5,7 +5,7 @@ description: Various CSS Resources
 
 # {title}
 
-*{description}*
+> {description}
 
 - [W3Schools CSS Reference](http://www.w3schools.com/cssref/)
 - [CSS Basics](http://www.cssbasics.com/)
@@ -50,7 +50,7 @@ description: Various CSS Resources
 - [Pure.css](http://purecss.io/)
 - [UIkit](https://getuikit.com/) - A lightweight and modular front-end framework for developing fast and powerful web interfaces.
 - [Wired-Elements](https://wiredjs.com/) - A set of common UI elements with a hand-drawn, sketchy look.
-  
+
 #### Bootstrap
 
 - [Bootstrap Live Customizer](https://www.bootstrap-live-customizer.com/)
@@ -60,9 +60,8 @@ description: Various CSS Resources
 - [Datepicker for Bootstrap](https://www.eyecon.ro/bootstrap-datepicker/)
 - [DateTime Picker](https://www.malot.fr/bootstrap-datetimepicker/)
 - [Lightbox](https://jbutz.github.io/bootstrap-lightbox/)
-- [WrapBootstrap](https://wrapbootstrap.com/) -  is the marketplace for premium Bootstrap-based templates
+- [WrapBootstrap](https://wrapbootstrap.com/) - is the marketplace for premium Bootstrap-based templates
 - [X-editable](http://vitalets.github.io/x-editable/) allows you to create editable elements on your page
-
 
 ### Material Design
 

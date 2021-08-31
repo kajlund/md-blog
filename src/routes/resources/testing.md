@@ -5,10 +5,9 @@ description: Libraries and tools for testing software
 
 # {title}
 
-*{description}*
+> {description}
 
 - [Best Practices](https://github.com/testjavascript/nodejs-integration-tests-best-practices)
-
 
 ## Test Runners
 

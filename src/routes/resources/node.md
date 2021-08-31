@@ -5,8 +5,7 @@ description: Resources for working with the Node.js platform
 
 # {title}
 
-*{description}*
-
+> {description}
 
 - [NODESCHOOL](https://nodeschool.io/sv/)
 - [Awesome Node.js](https://github.com/sindresorhus/awesome-nodejs) - A curated list of delightful Node.js packages and resources.
@@ -176,7 +175,7 @@ Have a look at the [Node Frameworks page](http://nodeframework.com/)
 - [Jade](http://jade-lang.com/) is the default templating language for express but I'm not sold on the syntax.
 - [Marko.js](https://markojs.com)
 - [Pug](https://pugjs.org/api/getting-started.html)
-- [tempura](https://github.com/lukeed/tempura) - A light, crispy, and delicious template engine 
+- [tempura](https://github.com/lukeed/tempura) - A light, crispy, and delicious template engine
 - [Vash](https://github.com/kirbysayshi/vash) Templating language with Razor syntax
 
 ## Tools

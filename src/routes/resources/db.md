@@ -5,8 +5,7 @@ description: Database Resources
 
 # {title}
 
-*{description}*
-
+> {description}
 
 - [Awesome MongoDB](https://github.com/ramnes/awesome-mongodb)
 - [Bobby Tables](http://www.bobby-tables.com/)

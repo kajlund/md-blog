@@ -5,13 +5,12 @@ description: Resources on Fonts for web development and programming
 
 # {title}
 
-*{description}*
+> {description}
 
 - [Adobe Fonts](https://fonts.adobe.com/)
 - [Fontsquirrel](https://www.fontsquirrel.com/)
 - [Google Fonts](https://fonts.google.com/)
 
- 
 ## Programming Fonts
 
 - [Compare Coding Fonts](https://coding-fonts.css-tricks.com/)

@@ -5,8 +5,7 @@ description: Resources for graphics
 
 # {title}
 
-*{description}*
-
+> {description}
 
 - [Pexels](https://www.pexels.com/) - Stock photos and Videos
 - [Pexels](https://www.pexels.com/sv-se/) - Free Photos for Web Design
@@ -15,7 +14,6 @@ description: Resources for graphics
 - [ui8.net - Design Resources](https://ui8.net/)
 - [GraphicStock](https://www.graphicstock.com/)
 - [Freepik](http://www.freepik.com/)
-
 
 ## Animations
 
@@ -55,11 +53,9 @@ description: Resources for graphics
 - [Colorblendy](http://colorblendy.com/)
 - [webcolourdata](http://webcolourdata.com/) - Provide URL to get colors
 
-
 ## Diagramming
 
 - :+1: [Pinker.js](http://withouthaste.com/pinker/index.html) - A standalone JavaScript library for rendering code/class diagrams on your web page.
-
 
 ## Images & Logos
 
@@ -86,7 +82,6 @@ description: Resources for graphics
 - [Shutterstock](http://www.shutterstock.com/)
 - [GRATISOGRAPHY](http://gratisography.com/)
 - [Unsplash](https://unsplash.com/)
-
 
 ## SVG
 

@@ -3,6 +3,10 @@ title: API Programming
 description: Resources for building and consuming APIs
 ---
 
+# {title}
+
+> {description}
+
 - [json:api](https://jsonapi.org/)
 - [API Design Guide](https://github.com/interagent/http-api-design)
 - [A Practical Approach to API Design](https://leanpub.com/restful-api-design)
@@ -38,4 +42,3 @@ description: Resources for building and consuming APIs
 - [httpbin.org](https://httpbin.org/) - A simple HTTP Request & Response Service.
 - [Json Generator](http://www.json-generator.com/) - Generate random data
 - [JSON Schema](http://json-schema.org/) - is a vocabulary that allows you to annotate and validate JSON documents.
-

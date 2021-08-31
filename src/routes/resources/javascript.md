@@ -5,7 +5,7 @@ description: A bunch of collected resources on JavaScript development
 
 # {title}
 
-*{description}*
+> {description}
 
 - [Awesome Podcasts](https://github.com/rShetty/awesome-podcasts)
 - [Can I Use?](http://caniuse.com/)
@@ -27,9 +27,7 @@ description: A bunch of collected resources on JavaScript development
 - [RealWorld](https://github.com/gothinkster/realworld) - "The mother of all demo apps"
 - [Regulex](https://jex.im/regulex) - Displays your regex as a railroad diagram
 
-
 The definitive source of the best JavaScript libraries, frameworks, and plugins at [JavaScripting.com](https://www.javascripting.com/). Also check out [The Vanilla Javascript Repository](http://www.vanillalist.com/). Another good place to search is [Microjs.com](http://microjs.com/#). [Modern JavaScript Cheatsheet](https://github.com/mbeaudru/modern-js-cheatsheet)
-
 
 ## Animation
 
@@ -74,7 +72,6 @@ The definitive source of the best JavaScript libraries, frameworks, and plugins 
 - [rollup.js](https://rollupjs.org/guide/en/)
 - [Webpack](https://webpack.js.org/)
 
-
 ## Date & Time
 
 - [date-fns](https://date-fns.org/) - Modern JavaScript date utility library
@@ -95,8 +92,6 @@ The definitive source of the best JavaScript libraries, frameworks, and plugins 
 - [Doclets](https://doclets.io/) - Beautiful Javascript API-Docs made simple
 - [dox](https://github.com/tj/dox) - JavaScript documentation generator for node using markdown and jsdoc
 - [jsDoc](https://jsdoc.app/)
-
-
 
 ## File System
 
@@ -122,7 +117,6 @@ The definitive source of the best JavaScript libraries, frameworks, and plugins 
 - [Svelte](https://svelte.technology/) - The magical disappearing UI framework
 - [Vue.js](https://vuejs.org/) - The Progressive JavaScript Framework
 
-
 #### Mobile Web
 
 - [Mobile Frameworks Comparison Chart](http://mobile-frameworks-comparison-chart.com/)
@@ -137,8 +131,6 @@ The definitive source of the best JavaScript libraries, frameworks, and plugins 
 - [Kendo UI](http://www.telerik.com/kendo-ui)
 - [Tabris.js](https://tabrisjs.com/)
 - [Weex](http://alibaba.github.io/weex/index.html)
-
-
 
 ## Generic Libraries
 

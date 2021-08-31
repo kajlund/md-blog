@@ -1,43 +1,41 @@
 ---
 title: Vue.js
-description: Resources for the JavaScript front-end framework Vue.js 
+description: Resources for the JavaScript front-end framework Vue.js
 ---
 
 # {title}
 
-*{description}*
+> {description}
 
 ## Components
 
-* [Vue-wait](https://github.com/f/vue-wait) - Complex Loader and Progress Management for Vue/Vuex and Nuxt Applications
+- [Vue-wait](https://github.com/f/vue-wait) - Complex Loader and Progress Management for Vue/Vuex and Nuxt Applications
 
 ## Learning
 
-* [Udemy](https://www.udemy.com/)
-* [Vue Mastery](https://www.vuemastery.com/) - learning resource for Vue developers
-* [Vue School](https://vueschool.io/)
-* - [Build Your First Vue.js App](https://courses.vuejsdevelopers.com/p/build-your-first-vue-js-app) - Free Starter Video Course
+- [Udemy](https://www.udemy.com/)
+- [Vue Mastery](https://www.vuemastery.com/) - learning resource for Vue developers
+- [Vue School](https://vueschool.io/)
+- - [Build Your First Vue.js App](https://courses.vuejsdevelopers.com/p/build-your-first-vue-js-app) - Free Starter Video Course
 
 #### Training Resource Repos
 
-* [Practical Vue.js source code](https://github.com/danielschmitz/vue-codes)
-* [Packt, Vuejs-2-Cookbook](https://github.com/PacktPublishing/Vuejs-2-Cookbook)
-* [Packt, Vue.JS 2.5+ by Example](https://github.com/PacktPublishing/Vue.js-2.x-by-Example)
-* [Udemy, Vue JS - Mastering Web Apps](https://github.com/15Dkatz/vue-guides)
-
+- [Practical Vue.js source code](https://github.com/danielschmitz/vue-codes)
+- [Packt, Vuejs-2-Cookbook](https://github.com/PacktPublishing/Vuejs-2-Cookbook)
+- [Packt, Vue.JS 2.5+ by Example](https://github.com/PacktPublishing/Vue.js-2.x-by-Example)
+- [Udemy, Vue JS - Mastering Web Apps](https://github.com/15Dkatz/vue-guides)
 
 ## Misc
 
-* [Gothinkster sample Vue app](https://github.com/gothinkster/vue-realworld-example-app)
-* [Polymer-Vue Playground](https://stackblitz.com/edit/polymer-vue-playground)
-* [Vuepress](https://vuepress.vuejs.org/) - Vue-powered Static Site Generator
-* [Vue Design System](https://vueds.com/)
-
+- [Gothinkster sample Vue app](https://github.com/gothinkster/vue-realworld-example-app)
+- [Polymer-Vue Playground](https://stackblitz.com/edit/polymer-vue-playground)
+- [Vuepress](https://vuepress.vuejs.org/) - Vue-powered Static Site Generator
+- [Vue Design System](https://vueds.com/)
 
 ## Testing
 
-* [Testing Vue Components with Jest](https://leanpub.com/testingvuejscomponentswithjest)
-* [Vuetron](http://vuetron.io/) - A tool for testing and debugging your Vue + Vuex applications.
+- [Testing Vue Components with Jest](https://leanpub.com/testingvuejscomponentswithjest)
+- [Vuetron](http://vuetron.io/) - A tool for testing and debugging your Vue + Vuex applications.
 
 ## UI Libs
 
