@@ -6,18 +6,20 @@ description: Some thoughts on Single Page Application (SPA) frameworks and compo
 
 # {title}
 
+> {description}
 
-::: warning
-Written back in 2015.
-:::
+<div class="custom-block warning">
+  <p class="custom-block-title">Warning!</p>
+  <p>Written back in 2015.</p>
+</div>
 
 ## Categories
 
 You could broadly categorize frameworks for building SPA's into:
 
-* JavaScript only frameworks
-* Thin JavaScript Layer frameworks
-* HTML Integration frameworks
+- JavaScript only frameworks
+- Thin JavaScript Layer frameworks
+- HTML Integration frameworks
 
 ### JavaScript only Frameworks
 
@@ -49,25 +51,24 @@ attributes) and lean on dependency injection.
 
 AngularJS and jQuery Mobile use this approach.
 
-
 ## Components of a SPA Framework
 
 There's no end to the amount of libraries, widgets and different levels of frameworks available
 for building SPA's. Here's some categories of stuff you'd be looking for sooner or later depending
 on the size of your project.
 
- * Languages
- * Structure
- * Routing
- * Data model
- * User Interface Handling
- * Generic Libraries
- * Tools
-   *  Package Management
-   *  Syntax Checking
-   *  ALM Tools
-   *  Profiling
-* Testing
+- Languages
+- Structure
+- Routing
+- Data model
+- User Interface Handling
+- Generic Libraries
+- Tools
+  - Package Management
+  - Syntax Checking
+  - ALM Tools
+  - Profiling
+- Testing
 
 ### Languages
 
@@ -75,9 +76,9 @@ To build an application you'll need a programming language. For client side web 
 
 That said, new languages that can be compiled to JavaScript become available all the time. Maybe the major ones at the time I write this are:
 
-* [CoffeeScript](http://coffeescript.org/)
-* [Dart](http://www.dartlang.org/)
-* [TypeScript](http://www.typescriptlang.org/)
+- [CoffeeScript](http://coffeescript.org/)
+- [Dart](http://www.dartlang.org/)
+- [TypeScript](http://www.typescriptlang.org/)
 
 I think that among the above mentioned TypeScript seems most interesting. The reason is that the philosophy is to provide what JS will eventually support plus optionally strong typing.
 
@@ -116,46 +117,43 @@ for updates between UI and data model.
 
 Model-Collection-Sync
 
-
 ### User Interface Handling
 
-* Grid Systems
-* Layout/Styling (Bootstrap et. al.)
-* View Templating (handlebars, underscore)
-* Data binding
-* Preprocessors (LESS/SASS)
+- Grid Systems
+- Layout/Styling (Bootstrap et. al.)
+- View Templating (handlebars, underscore)
+- Data binding
+- Preprocessors (LESS/SASS)
 
-* Widgets (Typically based on jQuery)
+- Widgets (Typically based on jQuery)
 
 The larger frameworks typically include routers and module handling capabilities as well. The functionality provided by the larger MVC frameworks can be pieced together using smaller frameworks like Backbone.js, Can.js, Knockout.js and many, many others.
 
-
 ### Generic Libraries
-* jQuery, Zepto, underscore
-* Polyfills (es5shim, modernizr)
 
+- jQuery, Zepto, underscore
+- Polyfills (es5shim, modernizr)
 
 ### Tools
 
 #### Package Management
 
-* [Bower](https://github.com/bower/bower)
+- [Bower](https://github.com/bower/bower)
 
 #### Syntax Checkers
 
-* JsLint/JsHint
+- JsLint/JsHint
 
 #### ALM tools
 
-*  (Node.js + Grunt.js for minification, linting, concatenation and running tests)
+- (Node.js + Grunt.js for minification, linting, concatenation and running tests)
 
 #### Profiling
 
-* YSlow
-
+- YSlow
 
 ### Unit Testing
 
-* QUnit
-* Mocha
-* Jasmine
+- QUnit
+- Mocha
+- Jasmine

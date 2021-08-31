@@ -3,34 +3,35 @@ title: Mocha
 createdAt: 2015-08-31
 description: Mocha unit testing framework for JavaScript.
 ---
+
 # {title}
 
 > {description}
 
-::: warning
-Written back in Aug of 2015
-:::
-
+<div class="custom-block warning">
+  <p class="custom-block-title">Warning!</p>
+  <p>Written back in Aug of 2015</p>
+</div>
 
 This doc assumes you are testing server-side code i.e. Node.js V8, not browser clients. Mocha can also run in browsers.
 
-* Initially developed for NodeJS but has also gained popularity for client side JavaScript testing
-* Open Source, Cross-Browser client and node.js server support
-* Supports both TDD and BDD style testing
-* Supports asynchronous testing
-* Supports any JavaScript assertion library
-* Integrates with CI tools
-* Highlight slow tests
-* Before, after, before each, after each
-* Global variable leak detection
+- Initially developed for NodeJS but has also gained popularity for client side JavaScript testing
+- Open Source, Cross-Browser client and node.js server support
+- Supports both TDD and BDD style testing
+- Supports asynchronous testing
+- Supports any JavaScript assertion library
+- Integrates with CI tools
+- Highlight slow tests
+- Before, after, before each, after each
+- Global variable leak detection
 
 ## Install
 
-* Either get [source from github](https://github.com/visionmedia/mocha) for  running in browser
-* or `npm install --save-dev mocha` for command line support
-* You can optionally also `npm install -g mocha` for convenience
-* Mocha doesn't provide a default assertion library so typically you'd also install something like
-[chai](http://chaijs.com/) `npm install --save-dev chai`.
+- Either get [source from github](https://github.com/visionmedia/mocha) for running in browser
+- or `npm install --save-dev mocha` for command line support
+- You can optionally also `npm install -g mocha` for convenience
+- Mocha doesn't provide a default assertion library so typically you'd also install something like
+  [chai](http://chaijs.com/) `npm install --save-dev chai`.
 
 > When running command line you are testing against the v8 engine which is fine for node apps but might not suffice for testing client-side.
 
@@ -73,15 +74,15 @@ You can skip all but a certain suite or test by calling **.only** after **descri
 
 ```javascript
 describe.only('Add', function () {
-    it('should return the sum of both operands', function () {
-            expect(calc.add(1, 1)).to.be(2);
-    });
+	it('should return the sum of both operands', function () {
+		expect(calc.add(1, 1)).to.be(2);
+	});
 });
 
 describe('Add', function () {
-    it.only('should return the sum of both operands', function () {
-        expect(calc.add(1, 1)).to.be(2);
-    });
+	it.only('should return the sum of both operands', function () {
+		expect(calc.add(1, 1)).to.be(2);
+	});
 });
 ```
 
@@ -89,43 +90,43 @@ You can skip whole suites or certain tests in a suite by adding **.skip** after 
 
 ```javascript
 describe.skip('Add', function () {
-    it('should return the sum of both operands', function () {
-            expect(calc.add(1, 1)).to.be(2);
-    });
+	it('should return the sum of both operands', function () {
+		expect(calc.add(1, 1)).to.be(2);
+	});
 });
 
 describe('Add', function () {
-    it.skip('should return the sum of both operands', function () {
-        expect(calc.add(1, 1)).to.be(2);
-    });
+	it.skip('should return the sum of both operands', function () {
+		expect(calc.add(1, 1)).to.be(2);
+	});
 });
 ```
 
-
 ## Assertion Libraries
 
-* Mocha does not include any specific assertion libraries so you need to choose one.
+- Mocha does not include any specific assertion libraries so you need to choose one.
 
 There are many popular assertion libraries to choose from:
 
-* Chai
-* expect.js
-* should.js
-* many others
+- Chai
+- expect.js
+- should.js
+- many others
 
 ### The Chai Assertion Library
 
 Chai js supports 3 popular assertion syntaxes:
 
-* Assert
-* Expect
-* Should
+- Assert
+- Expect
+- Should
 
 ```javascript
 var assert = chai.assert;
 var expect = chai.expect;
-var should = chai.should();  //Not IE friendly
+var should = chai.should(); //Not IE friendly
 ```
+
 #### Using The Expect Syntax
 
 ```javascript
@@ -134,18 +135,21 @@ expect(myVar).to.be.a('string');
 ```
 
 ## Sinon
+
 ### Spies
+
 ### Stubs
+
 ### Mocks
 
 ## Resources
 
-* Unit Testing with Node.js on Pluralsight
-* Node.js Testing Strategies on Pluralsight
-* [Mocha](https://mochajs.org/)
-* [chai](http://chaijs.com/)
-* [superagent](https://github.com/visionmedia/superagent)
-* [Request http library](https://github.com/request/request)
-* [Should.js assertion library](https://github.com/shouldjs/should.js)
-* [Chakram](http://dareid.github.io/chakram/) REST API test framework
-* [Testing node with Mocha, expect and noc](http://www.mikeball.us/blog/testing-node-with-mocha-expect-and-nock/)
+- Unit Testing with Node.js on Pluralsight
+- Node.js Testing Strategies on Pluralsight
+- [Mocha](https://mochajs.org/)
+- [chai](http://chaijs.com/)
+- [superagent](https://github.com/visionmedia/superagent)
+- [Request http library](https://github.com/request/request)
+- [Should.js assertion library](https://github.com/shouldjs/should.js)
+- [Chakram](http://dareid.github.io/chakram/) REST API test framework
+- [Testing node with Mocha, expect and noc](http://www.mikeball.us/blog/testing-node-with-mocha-expect-and-nock/)

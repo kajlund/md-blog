@@ -6,11 +6,12 @@ description: An intro to the mobile web. Different style mobile web applications
 
 #{title}
 
->{description}
+> {description}
 
-::: warning
-Written back in March of 2014
-:::
+<div class="custom-block warning">
+  <p class="custom-block-title">Warning!</p>
+  <p>Written back in March of 2014</p>
+</div>
 
 The Mobile Web refers to browser-based applications created for mobile devices, like smartphones and tablets, wirelessly connected to the internet.
 
@@ -20,35 +21,33 @@ Mobile device characteristics are important but there's more to it than just scr
 
 ### Mobile compared to desktop platforms:
 
-* Lots of different browsers with varying support for modern web technologies
+- Lots of different browsers with varying support for modern web technologies
 
-* Have less available resources than desktop machines, both hardware and network bandwidth
+- Have less available resources than desktop machines, both hardware and network bandwidth
 
-* Form factor. Screens are smaller, interactions and expectations are different.
+- Form factor. Screens are smaller, interactions and expectations are different.
 
-* Might not have good keyboards and pointing devices
+- Might not have good keyboards and pointing devices
 
-* Typically used in an unpredictable environment instead of a fixed location
+- Typically used in an unpredictable environment instead of a fixed location
 
-* Mobile devices have features unavailable on a desktop computer like GPS, accelerometer, camera etc.
+- Mobile devices have features unavailable on a desktop computer like GPS, accelerometer, camera etc.
 
 ### Things to consider:
 
-* What kinds personas do you want to target? Knowing this helps you identify desirable features.
+- What kinds personas do you want to target? Knowing this helps you identify desirable features.
 
-* What do these personas want to do on the site?
+- What do these personas want to do on the site?
 
-* Where, when and why is the site being accessed?
-
+- Where, when and why is the site being accessed?
 
 ### Why do we need mobile sites/WebApps now?
 
-* Mobile web usage will exceed desktop web usage in the near future
-* The web is the only true cross-platform technology.
-* Web technology is alone in reaching pretty much every available platform
-* I.e. the web is the future platform.
-* Modern devices pretty much all have browsers with desktop-like capabilities
-
+- Mobile web usage will exceed desktop web usage in the near future
+- The web is the only true cross-platform technology.
+- Web technology is alone in reaching pretty much every available platform
+- I.e. the web is the future platform.
+- Modern devices pretty much all have browsers with desktop-like capabilities
 
 ## Defining some commonly used terminology
 
@@ -76,33 +75,32 @@ RWD is perhaps the simplest and quickest ways to make a website built for deskto
 
 Three Categories:
 
-* Native Applications
-* Web Apps/Sites
-* Hybrids that are built with web technology and can be packaged for native distribution. I call these WebApps.
+- Native Applications
+- Web Apps/Sites
+- Hybrids that are built with web technology and can be packaged for native distribution. I call these WebApps.
 
 ## Native Applications
 
 Applications built using the provided SDK for the designated platform. A subcategory of native applications is the Cross-Platform Native Frameworks (CPNF) that aim to use a single codebase and generate native code for multiple platforms.
 
-
-* Not cross-platform
-* Need to create separate apps for every targeted platform will be expensive
-* Huge learning curve for new platforms
-* Fast changing landscape could make your selected platform irrelevant in a few years.
-* Not linkable
-* Discoverable via App Stores
-* Can use all device APIs. App can do anything the device is capable of
-* Apps are faster and gets the right look and feel
+- Not cross-platform
+- Need to create separate apps for every targeted platform will be expensive
+- Huge learning curve for new platforms
+- Fast changing landscape could make your selected platform irrelevant in a few years.
+- Not linkable
+- Discoverable via App Stores
+- Can use all device APIs. App can do anything the device is capable of
+- Apps are faster and gets the right look and feel
 
 For the CPNF's most of the cons listed goes away while the pros should mostly apply.
 
 ### Tools
 
-* iOS - Xcode
-* Android - Android SDK + Eclipse
-* Windows - Visual Studio (C# + XAML)
-* iOS + Android → Appcelerator Studio (JavaScript/CoffeeScript)
-* Most clients → RhoMobile Suite (Ruby/Html)
+- iOS - Xcode
+- Android - Android SDK + Eclipse
+- Windows - Visual Studio (C# + XAML)
+- iOS + Android → Appcelerator Studio (JavaScript/CoffeeScript)
+- Most clients → RhoMobile Suite (Ruby/Html)
 
 > By building native apps you’ll be able to build a very responsive app with access to all device APIs and the proper look & feel. This is also usually the by far most expensive and risky option. Can be the best option for complex client-side logic.
 
@@ -113,34 +111,34 @@ sites for mobile devices.
 
 The web site strategy would mainly be suitable for a traditional site serving content and not so much when you need to build something that can take advantage of mobile device functionality.
 
-* Cross-platform
-* Traditionally building a separate mobile site but using responsive web design (RWD) techniques we can target different device sizes with CSS.
-* Linkable
-* Not discoverable via App Stores
-* Limited access to device APIs. More coming through evolving Web standards.
-* No presence in app stores (for monetizing go native)
-* No access to some native APIs/functionality
+- Cross-platform
+- Traditionally building a separate mobile site but using responsive web design (RWD) techniques we can target different device sizes with CSS.
+- Linkable
+- Not discoverable via App Stores
+- Limited access to device APIs. More coming through evolving Web standards.
+- No presence in app stores (for monetizing go native)
+- No access to some native APIs/functionality
 
 ### Tools
 
-* HTML, CSS + JavaScript
-* Libraries like jQuery etc.
-* Frameworks like ExtJS, Ember.js (SproutCore) etc.
+- HTML, CSS + JavaScript
+- Libraries like jQuery etc.
+- Frameworks like ExtJS, Ember.js (SproutCore) etc.
 
 > Well suited for providing traditional site content to the largest possible audience. Less well suited for applications targeted to specific audiences.
 
 ## Web Apps
 
-* Native-like look & feel, but not quite and not as fast
-* Cross-platform in general
-* Linkable
-* Discoverable via App Stores
-* Can use most device APIs
+- Native-like look & feel, but not quite and not as fast
+- Cross-platform in general
+- Linkable
+- Discoverable via App Stores
+- Can use most device APIs
 
 ### Tools
 
-* Same tools as for building Web Sites +
-* Native container and native API provider like PhoneGap (Apache Cordova)
+- Same tools as for building Web Sites +
+- Native container and native API provider like PhoneGap (Apache Cordova)
 
 > Well suited for getting native-like functionality across platforms. Should often be the most suitable alternative as long as the client isn’t too complex. Lot’s of apps currently across App Stores are built like this.
 

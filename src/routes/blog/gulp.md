@@ -6,46 +6,46 @@ description: A short intro on how to use Gulp, a node.js automation tool.
 
 # {title}
 
-::: Warning!
-Written back in May of 2014
-:::
+> {description}
 
-[Gulp](http://gulpjs.com/) is a task runner that can be used as an alternative to *Grunt*. Whereas Grunt is more declarative, Gulp might feel more natural to a Node.js programmer. It is a nodejs module that can help you automate and enhance your workflow in the areas of development, testing and Continuous Integration. Grunt is configuration over code and file based. Gulp is code over configuration, stream/memory-based, and it's easier to use your own nodejs code directly.
+<div class="custom-block warning">
+  <p class="custom-block-title">Warning!</p>
+  <p>Written back in May of 2014</p>
+</div>
 
+[Gulp](http://gulpjs.com/) is a task runner that can be used as an alternative to _Grunt_. Whereas Grunt is more declarative, Gulp might feel more natural to a Node.js programmer. It is a nodejs module that can help you automate and enhance your workflow in the areas of development, testing and Continuous Integration. Grunt is configuration over code and file based. Gulp is code over configuration, stream/memory-based, and it's easier to use your own nodejs code directly.
 
 With Gulp you can automate things like:
 
-* Lint sorce code (eslint, jshint, jscs...)
-* Run unit tests
-* Source Transpiling, Concatenation and Minification. Own or 3rd party
-* Build distributables by minifying css/js
-* CSS compilation like LESS to CSS including vendor prefix handling
-* Copy/move files.
-* Inject html files
-* Angular Template Cache, ngAnnotate
-* Bump package versions for npm and bower
-* File revisions and versioning, Cache Busting
-* Push git tags
-* Watch your source to automatically trigger tasks when anything changes
-* etc etc
+- Lint sorce code (eslint, jshint, jscs...)
+- Run unit tests
+- Source Transpiling, Concatenation and Minification. Own or 3rd party
+- Build distributables by minifying css/js
+- CSS compilation like LESS to CSS including vendor prefix handling
+- Copy/move files.
+- Inject html files
+- Angular Template Cache, ngAnnotate
+- Bump package versions for npm and bower
+- File revisions and versioning, Cache Busting
+- Push git tags
+- Watch your source to automatically trigger tasks when anything changes
+- etc etc
 
 By default, Gulp tasks run asynchronously.
 
 > Using gulp you can ensure code quality, automatically run tests and have an automated build pipeline. Develop - Analyze - Test - Build - Deploy
 
-
 ## Resources
 
-* [Gulp homepage](http://gulpjs.com/)
-* [Gulp Github page](https://github.com/gulpjs/gulp)
-* [Gulp Recipes](https://github.com/gulpjs/gulp/tree/master/docs/recipes)
-* [Gulp Plugins](http://gulpjs.com/plugins/)
-* [Getting Started](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)
-* [API Documentation](https://github.com/gulpjs/gulp/blob/master/docs/API.md)
-* [Laracasts video tutorial](https://laracasts.com/lessons/gulp-this)
-* [Pony Foo Blog Post](https://ponyfoo.com/articles/my-first-gulp-adventure)
-* JavaScript Build Automation @ PluralSight - [Github repo](https://github.com/johnpapa/pluralsight-gulp)
-
+- [Gulp homepage](http://gulpjs.com/)
+- [Gulp Github page](https://github.com/gulpjs/gulp)
+- [Gulp Recipes](https://github.com/gulpjs/gulp/tree/master/docs/recipes)
+- [Gulp Plugins](http://gulpjs.com/plugins/)
+- [Getting Started](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)
+- [API Documentation](https://github.com/gulpjs/gulp/blob/master/docs/API.md)
+- [Laracasts video tutorial](https://laracasts.com/lessons/gulp-this)
+- [Pony Foo Blog Post](https://ponyfoo.com/articles/my-first-gulp-adventure)
+- JavaScript Build Automation @ PluralSight - [Github repo](https://github.com/johnpapa/pluralsight-gulp)
 
 ## Installation
 
@@ -58,18 +58,14 @@ npm install gulp --save-dev
 
 The second command will add Gulp to the `node_modules` folder in your project directory and also add an entry in `package.json` in the `devDependencies` object.
 
-
 ## The Gulpfile
 
 You add a file in the project directory called `gulpfile.js`. This is where you instruct Gulp what to do. The so called **default** task is the task that will be run if you run Gulp without parameters. To actually do much you need to install a plugin for the task at hand.
 
-
 ```js
 var gulp = require('gulp');
 
-gulp.task('default', function () {
-
-});
+gulp.task('default', function () {});
 ```
 
 ## Running Gulp
@@ -87,10 +83,10 @@ Gulp uses node streams for gathering a source set of files as input and then pip
 
 Only 4 APIs:
 
-* gulp.task
-* gulp.src
-* gulp.dest
-* gulp.watch
+- gulp.task
+- gulp.src
+- gulp.dest
+- gulp.watch
 
 ### gulp.task(name, [,dep], fn)
 
@@ -112,14 +108,13 @@ To watch a set of files. Can be useful for restarting a server, running tests, d
 
 Watch files in glob pattern for any changes and call upon defined task(s) or alternatively call a callback function.
 
-
 ## Process
 
-* Install gulp as a global package for convenience `npm install -g gulp`.
-* Install gulp locally in your project `npm install --save-dev gulp`
-* Install other dependent packages
-* Code your tasks
-* Run your tasks
+- Install gulp as a global package for convenience `npm install -g gulp`.
+- Install gulp locally in your project `npm install --save-dev gulp`
+- Install other dependent packages
+- Code your tasks
+- Run your tasks
 
 We want to save the dependencies to the `devDependencies` section in `package.json`.
 
@@ -131,16 +126,16 @@ To reduce the long list of required plugins you can also load them as you need t
 
 ```js
 var gulp = require('gulp'),
-    plug = require('gulp-load-plugins')({lazy: true});
+	plug = require('gulp-load-plugins')({ lazy: true });
 
 gulp.task('vet', function () {
-    return gulp
-        .src('app/**/*.js')
-        .pipe(plug.if(args.verbose, plug.print()))
-        .pipe(plug.jscs())
-        .pipe(plug.jshint())
-        .pipe(plug.jshint.reporter('jshint-stylish', {verbose: true}))
-        .pipe(plug.jshint.reporter('fail'));
+	return gulp
+		.src('app/**/*.js')
+		.pipe(plug.if(args.verbose, plug.print()))
+		.pipe(plug.jscs())
+		.pipe(plug.jshint())
+		.pipe(plug.jshint.reporter('jshint-stylish', { verbose: true }))
+		.pipe(plug.jshint.reporter('fail'));
 });
 ```
 
@@ -170,7 +165,7 @@ The watch function is used to monitor file changes and trigger tasks as changes 
 
 ```js
 gulp.task('less-watcher', function () {
-    gulp.watch([config.lessFiles], ['styles']);
+	gulp.watch([config.lessFiles], ['styles']);
 });
 ```
 
@@ -180,24 +175,27 @@ All compilation can of course fail because of syntax errors. To gracefully handl
 
 ```js
 gulp.task('styles', ['clean-styles'], function () {
-    log('Compiling LESS --> CSS');
+	log('Compiling LESS --> CSS');
 
-    return gulp
-        .src(conf.lessFiles)
-        .pipe(plug.plumber())
-        .pipe(plug.less())
-        //.on('error', errorLogger)
-        .pipe(plug.autoprefixer({browsers: ['last 2 versions', '> 5%'] }))
-        .pipe(gulp.dest(conf.tempFolder));
+	return (
+		gulp
+			.src(conf.lessFiles)
+			.pipe(plug.plumber())
+			.pipe(plug.less())
+			//.on('error', errorLogger)
+			.pipe(plug.autoprefixer({ browsers: ['last 2 versions', '> 5%'] }))
+			.pipe(gulp.dest(conf.tempFolder))
+	);
 });
 
-function errorLogger (error) {
-    log('*** Start of Error ***');
-    log(error);
-    log('*** End of Error');
-    this.emit('end'); //end the pipe
+function errorLogger(error) {
+	log('*** Start of Error ***');
+	log(error);
+	log('*** End of Error');
+	this.emit('end'); //end the pipe
 }
 ```
+
 ## Generic Tasks
 
 ### Cleaning Folders
@@ -228,68 +226,68 @@ gulp.task('styles', ['clean-styles'], function () {...
 
 ```javascript
 function clean(path, done) {
-    log('Cleaning: ' + plug.util.colors.blue(path));
-    del(path, done);
+	log('Cleaning: ' + plug.util.colors.blue(path));
+	del(path, done);
 }
 
 function log(msg) {
-    var item;
+	var item;
 
-    if (typeof (msg) === 'object') {
-        for (item in msg) {
-            if (msg.hasOwnProperty(item)) {
-                plug.util.log(plug.util.colors.blue(msg[item]));
-            }
-        }
-    } else {
-        plug.util.log(plug.util.colors.blue(msg));
-    }
+	if (typeof msg === 'object') {
+		for (item in msg) {
+			if (msg.hasOwnProperty(item)) {
+				plug.util.log(plug.util.colors.blue(msg[item]));
+			}
+		}
+	} else {
+		plug.util.log(plug.util.colors.blue(msg));
+	}
 }
 ```
-
-
 
 ## Automatic Page Reloads
 
 ### Server
 
-* Prepare CSS and HTML
-* Restart on node server changes
+- Prepare CSS and HTML
+- Restart on node server changes
 
 [Nodemon](https://github.com/remy/nodemon) can restart, watch for changes and handle different events. The
- gulp plugin is called gulp-nodemon. It adds supports for calling other gulp tasks on different events.
+gulp plugin is called gulp-nodemon. It adds supports for calling other gulp tasks on different events.
 
      npm install --save-dev gulp-nodemon
 
 ```javascript
 gulp.task('server', function () {
-    return plug.nodemon({
-            script: 'server.js',
-            delayTime: 1,
-            watch: config.serverSourceFiles
-        })
-        .on('restart', ['vet'], function (ev) {
-            log('*** nodemon restarted server');
-            log('files changed on restart:\n' + ev);
-        })
-        .on('start', function () {
-            log('*** nodemon started monitoring');
-        })
-        .on('crash', function () {
-            log('*** nodemon crashed: script crashed for some reason');
-        })
-        .on('exit', function () {
-            log('*** nodemon exited cleanly');
-        });
+	return plug
+		.nodemon({
+			script: 'server.js',
+			delayTime: 1,
+			watch: config.serverSourceFiles
+		})
+		.on('restart', ['vet'], function (ev) {
+			log('*** nodemon restarted server');
+			log('files changed on restart:\n' + ev);
+		})
+		.on('start', function () {
+			log('*** nodemon started monitoring');
+		})
+		.on('crash', function () {
+			log('*** nodemon crashed: script crashed for some reason');
+		})
+		.on('exit', function () {
+			log('*** nodemon exited cleanly');
+		});
 });
 ```
+
 Before restarting we'll call the vet task to verify code.
 
 ### Client
 
-* Launch server
-* Launch browser
-* Restart/refresh on changes
+- Launch server
+- Launch browser
+- Restart/refresh on changes
 
 [BrowserSync](http://www.browsersync.io) can watch client-side files and
 automatically inject changes (using sockets.io) into the browser(s).
@@ -344,16 +342,15 @@ function startBrowserSync () {
 }
 ```
 
-
 ## Code Analysis a.k.a. Linting
 
->As of summer 2016 I've dropped JSHint and JSCS in favor of eslint.
+> As of summer 2016 I've dropped JSHint and JSCS in favor of eslint.
 
 These are 3 popular tools for code analysis:
 
-* [eslint](http://eslint.org/)
-* [JSHint](http://jshint.com/) - [docs](http://jshint.com/docs/)
-* [JSCS](http://jscs.info/) - [Github](https://github.com/jscs-dev/node-jscs)
+- [eslint](http://eslint.org/)
+- [JSHint](http://jshint.com/) - [docs](http://jshint.com/docs/)
+- [JSCS](http://jscs.info/) - [Github](https://github.com/jscs-dev/node-jscs)
 
 JSHint is a popular code analysis tool that can detect syntax errors and other potential problems in your source code. Define your rules in a file called `.jshintrc`
 
@@ -365,23 +362,22 @@ JSCS is a JavaScript Code Style Checker. You can use it to define a style guide 
 
 ```javascript
 var gulp = require('gulp'),
-    plug = require('gulp-load-plugins')({lazy: true});
+	plug = require('gulp-load-plugins')({ lazy: true });
 
 gulp.task('vet', function () {
-    return gulp
-        .src('./app/**/*.js')
-        .pipe(plug.jshint())
-        .pipe(plug.jscs())
-        .on('error', noop)
-        .pipe(plug.jscsStylish.combineWithHintResults())
-        .pipe(plug.jshint.reporter('jshint-stylish', {verbose: true}));
+	return gulp
+		.src('./app/**/*.js')
+		.pipe(plug.jshint())
+		.pipe(plug.jscs())
+		.on('error', noop)
+		.pipe(plug.jscsStylish.combineWithHintResults())
+		.pipe(plug.jshint.reporter('jshint-stylish', { verbose: true }));
 });
 
 var noop = function () {};
 ```
 
 ## Transpile CSS
-
 
 If you want to use LESS or SASS you need to transpile your files to CSS.
 
@@ -391,35 +387,35 @@ You can use [AutoPrefixer](https://github.com/postcss/autoprefixer) to add vendo
 
 ```javascript
 gulp.task('styles', ['clean-styles'], function () {
-    log('Compiling LESS --> CSS');
+	log('Compiling LESS --> CSS');
 
-    return gulp
-        .src('./styles/*.less')
-        .pipe(plug.less())
-        .pipe(plug.autoprefixer({browsers: ['last 2 versions', '> 5%'] }))
-        .pipe(gulp.dest('./tmp'));
+	return gulp
+		.src('./styles/*.less')
+		.pipe(plug.less())
+		.pipe(plug.autoprefixer({ browsers: ['last 2 versions', '> 5%'] }))
+		.pipe(gulp.dest('./tmp'));
 });
 
 gulp.task('clean-styles', function (done) {
-    clean('./tmp/**/*.css', done);
+	clean('./tmp/**/*.css', done);
 });
 
 function clean(path, done) {
-    log('Cleaning: ' + plug.util.colors.blue(path));
-    del(path, done);
+	log('Cleaning: ' + plug.util.colors.blue(path));
+	del(path, done);
 }
 ```
 
 ```less
 .style-test {
-    transform-origin: center bottom;
+	transform-origin: center bottom;
 }
 ```
 
 ```css
 .style-test {
-  -webkit-transform-origin: center bottom;
-          transform-origin: center bottom;
+	-webkit-transform-origin: center bottom;
+	transform-origin: center bottom;
 }
 ```
 
@@ -465,14 +461,14 @@ You can use [gulp-imagemin](https://github.com/sindresorhus/gulp-imagemin) for i
 
 ```javascript
 gulp.task('imagemin', function () {
-    log('Compress images and copy to build folder');
+	log('Compress images and copy to build folder');
 
-    return gulp.src(config.images)
-        .pipe(plug.imagemin({optimizationLevel: 3}))
-        .pipe('./build/img')
-})
+	return gulp
+		.src(config.images)
+		.pipe(plug.imagemin({ optimizationLevel: 3 }))
+		.pipe('./build/img');
+});
 ```
-
 
 ## html injection
 
@@ -495,22 +491,21 @@ Separating between 3rd party CSS/JS and our own
 ```html
 <!DOCTYPE html>
 <html ng-app="app">
-<head>
-    <!-- bower:css -->
-    <!-- endbower -->
+	<head>
+		<!-- bower:css -->
+		<!-- endbower -->
 
-    <!-- inject:css -->
-    <!-- endinject -->
-</head>
-<body>
-    <div ng-include="'app/layout/shell.html'">
-    </div>
-    <!-- bower:js -->
-    <!-- endbower -->
+		<!-- inject:css -->
+		<!-- endinject -->
+	</head>
+	<body>
+		<div ng-include="'app/layout/shell.html'"></div>
+		<!-- bower:js -->
+		<!-- endbower -->
 
-    <!-- inject:js -->
-    <!-- endinject -->
-</body>
+		<!-- inject:js -->
+		<!-- endinject -->
+	</body>
 </html>
 ```
 

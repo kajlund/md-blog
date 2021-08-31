@@ -401,3 +401,23 @@ pre {
   border-radius: 1.1rem;
   padding: 0.5rem 1rem;
 }
+
+.custom-block {
+	margin-top: 2rem;
+	padding: .2rem 1rem;
+	border-radius: .5rem;
+	box-shadow: var(--shadow);
+}
+
+.custom-block.warning {
+	border-left: .4rem solid #e7c000;
+	background-color: rgba(255,229,100,.3);
+	border-color: #e7c000;
+	color: #6b5900;
+}
+
+.custom-block-title {
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+

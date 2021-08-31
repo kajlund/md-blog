@@ -6,9 +6,12 @@ description: Overview of RhoMobile Suite of tools for web/mobile developers.
 
 # {title}
 
-::: Warning!
-Written back in Feb of 2014
-:::
+> {description}
+
+<div class="custom-block warning">
+  <p class="custom-block-title">Warning!</p>
+  <p>Written back in Feb of 2014</p>
+</div>
 
 We recently had a need for building a simple WebApp that must be made available on the Motorola MC65 device. When I did the usual Google search I stumbled upon the [RhoMobile](https://www.zebra.com/us/en/products/software/mobile-computers/rhomobile-suite.html) framework.
 
@@ -22,61 +25,59 @@ What follows is a short summary of what RhoMobile Suite contains:
 
 RhoMobile offers an open source, Ruby-based mobile development framework for business mobility solutions through four major products:
 
-* Rhodes
-* RhoSync
-* RhoHub
-* RhoGallery
+- Rhodes
+- RhoSync
+- RhoHub
+- RhoGallery
 
 ## Rhodes
 
-* Open Source framework for building device independent native clients using Ruby
-* Supports iOS, Windows Mobile, Windows Phone, Google Android, and BlackBerry
-* Can handle device APIs like GPS, Contacts, Calendar, Camera, Maps, Push, Barcode, Signatures and Bluetooth
-* Is opinionated, MVC based and contains an ORM called Rhom
-* Uses HTML templating for view generation
+- Open Source framework for building device independent native clients using Ruby
+- Supports iOS, Windows Mobile, Windows Phone, Google Android, and BlackBerry
+- Can handle device APIs like GPS, Contacts, Calendar, Camera, Maps, Push, Barcode, Signatures and Bluetooth
+- Is opinionated, MVC based and contains an ORM called Rhom
+- Uses HTML templating for view generation
 
 ## RhoSync
 
-* Sync Server that can push changes using native phone SDK and monitor clients
-* Is highly scalable - Uses Redis key/value store for data caching
-
+- Sync Server that can push changes using native phone SDK and monitor clients
+- Is highly scalable - Uses Redis key/value store for data caching
 
 ## RhoHub
 
-* Cloud deployment on Heroku
-* Hosted development environment for Rhodes and RhoSync
-* One-click builds
-* Version control with Git and Collaborator Management
-
+- Cloud deployment on Heroku
+- Hosted development environment for Rhodes and RhoSync
+- One-click builds
+- Version control with Git and Collaborator Management
 
 ## RhoGallery
 
-* Administrators can manage application exposure to end users
-* Can provide central launching place for apps to different users
-* Management console for “app galleries” on RhoHub
-* Automatic provisioning of appropriate apps for end users. Handles invites and provides downloads for app installation
+- Administrators can manage application exposure to end users
+- Can provide central launching place for apps to different users
+- Management console for “app galleries” on RhoHub
+- Automatic provisioning of appropriate apps for end users. Handles invites and provides downloads for app installation
 
 ## Why Rhomobile?
 
-* Model View Controller: Similar to Rails produces code that is well structured and easy to understand and thus maintain.
-* The same codebase supports most devices and even desktop support is coming soon.
-* Good offline capabilities with good synch options via RhoSync.
-* DB independent Active Record-like ORM called Rhom
-* Productive via constraints on structure and organization and also code generators and scaffolding
-* Highly scalable sync server
-* Hosted builds via RhoHub
+- Model View Controller: Similar to Rails produces code that is well structured and easy to understand and thus maintain.
+- The same codebase supports most devices and even desktop support is coming soon.
+- Good offline capabilities with good synch options via RhoSync.
+- DB independent Active Record-like ORM called Rhom
+- Productive via constraints on structure and organization and also code generators and scaffolding
+- Highly scalable sync server
+- Hosted builds via RhoHub
 
 ## Architecture
 
 The application can consist of 3 separate layers:
 
-* Rhodes Client Application
-  * Ruby executor with ORM and MVC layers and device APIs
-  * A RhoSync Client if need access to server data
-* RhoSync Server
-  * Source Adapters
-* Backend Application
-  * REST, SOAP etc
+- Rhodes Client Application
+  - Ruby executor with ORM and MVC layers and device APIs
+  - A RhoSync Client if need access to server data
+- RhoSync Server
+  - Source Adapters
+- Backend Application
+  - REST, SOAP etc
 
 ## Licensing
 
