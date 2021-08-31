@@ -1,7 +1,5 @@
 ---
 title: About the Site
-lang: en-US
-sidebar: false
 Description: What's it about dude?
 ---
 
