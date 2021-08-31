@@ -18,7 +18,8 @@
 		"mdsvex": "^0.9.7",
 		"prettier": "~2.2.1",
 		"prettier-plugin-svelte": "^2.2.0",
-		"svelte": "^3.34.0"
+		"svelte": "^3.34.0",
+		"svelte-feather-icons": "^3.5.0"
 	},
 	"type": "module"
 }
