@@ -206,9 +206,9 @@ The definitive source of the best JavaScript libraries, frameworks, and plugins 
 - [marked](https://github.com/chjj/marked) - A markdown parser and compiler. Built for speed.
 - [markmap](https://markmap.js.org/) - Visualize your Markdown with mindmaps
 - [marky](https://github.com/nolanlawson/marky) - High-resolution JavaScript timer based on performance.mark
-- [MicroDiff](https://github.com/AsyncBanana/microdiff) - Microdiff is a tiny (currently <1kb), fast, zero dependency object and array comparison library. It is significantly faster than most other deep comparison libraries, and has full TypeScript support.
+- [MicroDiff](https://github.com/AsyncBanana/microdiff) - Microdiff is a tiny, fast, zero dependency object and array comparison library.
 - [Microlight.js](https://asvd.github.io/microlight/) is a small syntax highlighting library.
-- [Nanoid](https://github.com/ai/nanoid) - A tiny (141 bytes), secure, URL-friendly, unique string ID generator for JavaScript
+- [Nanoid](https://github.com/ai/nanoid) - A tiny, secure, URL-friendly, unique string ID generator for JavaScript
 - [Offline.js](http://github.hubspot.com/offline/docs/welcome/) - Offline alerts
 - [Papa Parse](http://papaparse.com/) CSV parser
 - [pdfmake](http://pdfmake.org/#/) - Client/server side PDF printing in pure JavaScript

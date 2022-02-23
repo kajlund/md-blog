@@ -6,7 +6,7 @@ description: Looking at developing JavaScript applications at scale
 
 # {title}
 
-> {Description}
+> {description}
 
 <div class="custom-block warning">
   <p class="custom-block-title">Warning!</p>
