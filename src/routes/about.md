@@ -6,13 +6,14 @@ Description: What's it about dude?
 # {title}
 
 <div class="presentation">
-  <img src="img/lukamannenmercury.jpg" alt="LuKa">
-  <p class="description">Hi there! I am Kaj Lund. I live on the Finnish west coast and have been working as a professional software developer since 1998. The last 10 years mainly with fullstack web development and especially building APIs using Node.js.</p>
+  <img class="pic" src="img/lukamannenmercury.jpg" alt="LuKa">
+  <p class="description">Hi there! I am Kaj Lund. I live on the Finnish northern west coast. I have been working as a professional software developer since 1998. During the past 10+ years mainly with fullstack web development and especially building REST APIs using Node.js.</p><p>&nbsp;</p>
 </div>
+<hr>
 
 ## See also
 
-- [Learning Resources](/learning) where I have gathered a lot of resources for learning.
+- [Learning Resources](/resources) where I have gathered a lot of resources for learning.
 - [The Demos Section](/demos) where I will list some demo apps eventually.
 - [State of JavaScript in 2020](https://2020.stateofjs.com/)
 - [The Top Frontend Development Links of 2019](https://superhighway.dev/frontend-2019)
@@ -58,19 +59,26 @@ Themes are Code-Quality (Testing, Documentation), REST alternatives and Client-S
 - Using Node 8+ objects and arrays has .includes() function
 
 <style>
+  hr {
+    margin-top: 2rem;
+    border: 1px solid var(--primary-200)
+  }
+  .pic {
+    display: block;
+    max-height: 110px;
+    border-radius: 8px;
+  }
+
   .presentation {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 2rem;
+    align-items: center;
+    /* border: 1px solid var(--primary-200); */
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    padding: .5rem;
   }
 
   .description {
-    margin-left: 10px;
-  }
-
-  img {
-    border-radius: 8px;
-    max-height: 150px;
+    margin-left: 8px;
   }
 </style>
