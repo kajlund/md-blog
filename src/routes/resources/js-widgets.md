@@ -102,6 +102,7 @@ description: Widgets and Component Libraries for web development
 
 - [Masonry](http://masonry.desandro.com/) is a JavaScript grid layout library. It works by placing elements in optimal position based on available vertical space, sort of like a mason fitting stones in a wall.
 - [Gridster](http://gridster.net/) is a jQuery plugin that allows building intuitive draggable layouts from elements spanning multiple columns
+- [Muuri](https://muuri.dev/) - infinite layouts with batteries included
 - [PhotoSwipe](http://photoswipe.com/) - JavaScript gallery, no dependencies.
 - [Split.js](http://nathancahill.github.io/Split.js/)
 - [v-accordion](https://github.com/LukaszWatroba/v-accordion) - Multi-level accordion component for AngularJS

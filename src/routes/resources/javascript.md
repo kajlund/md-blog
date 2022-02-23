@@ -184,16 +184,21 @@ The definitive source of the best JavaScript libraries, frameworks, and plugins 
 ## Misc
 
 - [Bumblebee](https://github.com/jaxcore/bumblebee) - JavaScript Voice Application Framework
+- [camaro](https://github.com/tuananh/camaro) - A utility to transform XML to JSON.
 - [Chance](https://chancejs.com) - Generate random strings, numbers etc.
 - [clipboardjs](https://clipboardjs.com/) - A modern approach to copy text to clipboard. No Flash. No dependencies.
 - [crypto-js](https://code.google.com/archive/p/crypto-js/) - JavaScript implementations of standard and secure cryptographic algorithms
 - [dragmove.js](https://github.com/knadh/dragmove.js) - A super tiny Javascript library to make DOM elements draggable and movable.
+- [ExcellentExport.js](https://github.com/jmaister/excellentexport) - JavaScript export to Excel or CSV.
 - [flexsearch](https://github.com/nextapps-de/flexsearch) - Next-Generation full text search library for Browser and Node.js
+- [Fuse.js](http://kiro.me/projects/fuse.html) - Lightweight fuzzy-search, in JavaScript.
 - [highlight.js](https://highlightjs.org/) - Syntax highlighting for the Web
 - [Honeypot](https://github.com/Shmakov/Honeypot) - Low interaction honeypot that displays real time attacks
+- [hotkey](https://github.com/github/hotkey) - Keyboard shortcuts.
 - [howler.js](https://howlerjs.com/) makes working with audio in JavaScript easy and reliable across all platforms.
+- [hyperid](https://github.com/mcollina/hyperid) - Uber-fast unique id generation, for Node.js and the browser.
 - [iMask.js](https://imask.js.org/) - vanilla javascript input mask
-- [Fuse.js](http://kiro.me/projects/fuse.html) - Lightweight fuzzy-search, in JavaScript.
+- [Inquirer.js](https://github.com/SBoudrias/Inquirer.js) - A collection of common interactive command line user interfaces.
 - [jlinq](http://www.hugoware.net/projects/jlinq) - Complex queries on jSon data.
 - [Johnny-Five](http://johnny-five.io/) - the JavaScript Robotics & IoT Platform
 - [JSONata](http://jsonata.org/) - Lightweight query and transformation language for JSON data
@@ -201,6 +206,7 @@ The definitive source of the best JavaScript libraries, frameworks, and plugins 
 - [marked](https://github.com/chjj/marked) - A markdown parser and compiler. Built for speed.
 - [markmap](https://markmap.js.org/) - Visualize your Markdown with mindmaps
 - [marky](https://github.com/nolanlawson/marky) - High-resolution JavaScript timer based on performance.mark
+- [MicroDiff](https://github.com/AsyncBanana/microdiff) - Microdiff is a tiny (currently <1kb), fast, zero dependency object and array comparison library. It is significantly faster than most other deep comparison libraries, and has full TypeScript support.
 - [Microlight.js](https://asvd.github.io/microlight/) is a small syntax highlighting library.
 - [Nanoid](https://github.com/ai/nanoid) - A tiny (141 bytes), secure, URL-friendly, unique string ID generator for JavaScript
 - [Offline.js](http://github.hubspot.com/offline/docs/welcome/) - Offline alerts

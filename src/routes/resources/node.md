@@ -42,6 +42,7 @@ description: Resources for working with the Node.js platform
 - [node-persist](https://github.com/joeferner/node-persist) - Node.js ORM framework supporting MySQL and SQLite 3 relational databases
 - [node-sqlserver](https://github.com/Azure/node-sqlserver) - The Microsoft Driver for Node.js for SQL Server allows Node.js applications on Microsoft Windows and Microsoft Windows Azure to access Microsoft SQL Server and Microsoft Windows Azure SQL Database.
 - [Objection.js](https://vincit.github.io/objection.js/) - Built on [knex.js](http://knexjs.org/)
+- [pure ORM](https://github.com/craigmichaelmartin/pure-orm) - a lightweight ORM for mapping the relational result rows of a database driver query to properly structured (nested) pure instances of your business object classes.
 - [Sequelize](https://sequelize.org/) provides easy access to MySQL, MariaDB, SQLite or PostgreSQL databases by mapping database entries to objects and vice versa.
 - [Waterline](https://github.com/balderdashy/waterline) - An adapter-based ORM for Node.js with support for mysql, mongo, postgres, redis, and more
 - [StormDB](https://github.com/tomprograms/stormdb)
@@ -120,6 +121,7 @@ Have a look at the [Node Frameworks page](http://nodeframework.com/)
 - [Caporal.js](https://github.com/mattallty/Caporal.js) - A full-featured framework for building command line applications (cli) with node.js
 - [CsvBuilder](https://github.com/nickpisacane/CsvBuilder) - Easily encode complex JSON objects to CSV with CsvBuilder's schema-like API
 - [dotenv](https://github.com/motdotla/dotenv) - Loads environment variables from .env for nodejs projects.
+- [express-validator](https://express-validator.github.io/docs/) Validator.js as middleware.
 - [fs-extra](https://github.com/jprichardson/node-fs-extra) - extra methods for the fs object like copy(), remove(), mkdirs()
 - [github-webhook-handler](https://github.com/rvagg/github-webhook-handler) - Node.js web handler / middleware for processing GitHub Webhooks
 - [git-js](https://github.com/steveukx/git-js) - A light weight interface for running git commands in any node.js application.

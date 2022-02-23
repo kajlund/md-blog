@@ -41,12 +41,12 @@ description: Useful software for development and team work
 
 - [Lucidchart](https://www.lucidchart.com/)
 - [Creately](http://www.creately.com/)
-- [Gliffy](https://www.gliffy.com/) - Collaborate on flowcharts, org charts, UML, network diagrams & more.
 - [Draw.io](https://www.draw.io/) flowchart maker and online diagramming
+- [Gliffy](https://www.gliffy.com/) - Collaborate on flowcharts, org charts, UML, network diagrams & more.
 - [Lovely Charts](http://www.lovelycharts.com/)
 - [Markvis](https://markvis.js.org/#/) - Make visualization in markdown.
 - [Mermaid](https://github.com/knsv/mermaid) - A Javascript based diagramming and charting tool that uses Markdown-inspired text definitions and a renderer to create and modify complex diagrams.
-- [mindmeister](https://www.mindmeister.com/) - Collaborative mind mapping
+- [Mindmeister](https://www.mindmeister.com/) - Collaborative mind mapping
 
 ## Documentation
 
@@ -202,6 +202,7 @@ Check out [this fine article](https://websitesetup.org/best-ide-software/) on ID
 - [Diffchecker](https://www.diffchecker.com/) - an online diff tool to compare text differences between two text files online
 - [Meld](http://meldmerge.org/) is an open source cross-platform diff tool
 - [Mackaroo](https://mockaroo.com/) - realistic data mockup generator
+- [ReqRes](https://reqres.in/) - Test your front-end against a real API
 - [Strong Passwordgenerator](https://passwordsgenerator.net/)
 
 #### RegEx
@@ -246,6 +247,7 @@ Check out [this fine article](https://websitesetup.org/best-ide-software/) on ID
 
 ## Static Site builders
 
+- [11ty](https://www.11ty.dev/) - Eleventy, a simpler static site generator.
 - [HUGO](https://gohugo.io/) - A fast and modern static website engine
 - [Vuepress](https://vuepress.vuejs.org/) - Vue-powered Static Site Generator
 
