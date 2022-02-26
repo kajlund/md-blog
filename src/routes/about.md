@@ -15,6 +15,7 @@ Description: What's it about dude?
 
 - [Learning Resources](/resources) where I have gathered a lot of resources for learning.
 - [The Demos Section](/demos) where I will list some demo apps eventually.
+- [State of JavaScript in 2021](https://2021.stateofjs.com/en-US/)
 - [State of JavaScript in 2020](https://2020.stateofjs.com/)
 - [The Top Frontend Development Links of 2019](https://superhighway.dev/frontend-2019)
 - [State of JavaScript in 2019](https://2019.stateofjs.com/)
