@@ -15,19 +15,20 @@ Description: What's it about dude?
 
 - [Learning Resources](/resources) where I have gathered a lot of resources for learning.
 - [The Demos Section](/demos) where I will list some demo apps eventually.
-- [State of JavaScript in 2021](https://2021.stateofjs.com/en-US/)
-- [State of JavaScript in 2020](https://2020.stateofjs.com/)
-- [The Top Frontend Development Links of 2019](https://superhighway.dev/frontend-2019)
-- [State of JavaScript in 2019](https://2019.stateofjs.com/)
-- [State of CSS in 2019](https://2019.stateofcss.com/)
-- [State of JavaScript in 2018](https://stateofjs.com/)
+- [State of JavaScript](https://stateofjs.com/) is doing a yearly survey to reveal trends in the JS ecosystem. [2021](https://2021.stateofjs.com/en-US/), [2020](https://2020.stateofjs.com/), [2019](https://2019.stateofjs.com/), [2018](https://2018.stateofjs.com/), [2017](https://2017.stateofjs.com/2017/).
+  - and [State of CSS](https://stateofcss.com/), [2021](https://2021.stateofcss.com/en-US/), [2020](https://2020.stateofcss.com/en-US/), [2019](https://2019.stateofcss.com/)
+- [JavaScript Rising Stars](https://risingstars.js.org) annual roundup of the JavaScript landscape.
+- The Frontend Tooling survey [2019](https://ashleynolan.co.uk/blog/frontend-tooling-survey-2019-results), [2018](https://ashleynolan.co.uk/blog/frontend-tooling-survey-2018-results)
 - [The 2018 Web Developer Roadmap](https://codeburst.io/the-2018-web-developer-roadmap-826b1b806e8d)
-- [JavaScript Rising Stars 2018](https://risingstars.js.org/2018/en/)
-- [The Front-End Tooling Survey 2018](https://ashleynolan.co.uk/blog/frontend-tooling-survey-2018-results)
-- [The State of JS 2017](https://2017.stateofjs.com/2017/front-end/results/)
 - [What the f\*ck JavaScript?](https://github.com/denysdovhan/wtfjs#readme)
 
 ## History
+
+#### 2022
+
+- Look into switch Express to Fastify
+- Learn React and Next.js
+- Another look at GraphQL
 
 #### 2021
 
