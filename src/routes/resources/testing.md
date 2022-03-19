@@ -11,6 +11,7 @@ description: Libraries and tools for testing software
 
 ## Test Runners
 
+- [AVA](https://github.com/avajs/ava) is a test runner for Node.js with a concise API, detailed error output, embrace of new language features and process isolation that lets you develop with confidence.
 - [Jasmine](http://jasmine.github.io/) is a Behavior Driven Development testing framework for JavaScript. It does not rely on browsers, DOM, or any JavaScript framework. Thus it's suited for websites, Node.js projects, or anywhere that JavaScript can run.
 - [Jest](http://facebook.github.io/jest/) is used by Facebook to test all JavaScript code including React applications.
   - [Majestic](https://github.com/Raathigesh/majestic/) - Zero config GUI for Jest
