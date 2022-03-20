@@ -45,7 +45,7 @@ description: Various CSS Resources
 - [PatternFly](https://pf4.patternfly.org/)
 - [Semantic UI](http://semantic-ui.com/)
 - [Tachyons](http://tachyons.io/)
-- :+1: [Tailwind](https://tailwindcss.com/) - A utility-first CSS framework for rapidly building custom user interfaces
+- [Tailwind](https://tailwindcss.com/) - A utility-first CSS framework for rapidly building custom user interfaces
 - [Topcoat](http://topcoat.io/)
 - [Pure.css](http://purecss.io/)
 - [UIkit](https://getuikit.com/) - A lightweight and modular front-end framework for developing fast and powerful web interfaces.
