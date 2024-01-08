@@ -70,6 +70,10 @@ Description: Stuff to look into
 - [Microsoft Build](http://www.buildwindows.com/)
 - [HTML5 Developer Conference](http://html5devconf.com/)
 
+# Frontend
+
+- [Frontend Mentor](https://www.frontendmentor.io/)
+
 ## General
 
 - [30 seconds of Code](https://30secondsofcode.org/)
@@ -98,6 +102,7 @@ Description: Stuff to look into
 
 - [Computer Science Education Resource Guide](http://www.smartscholar.com/computer-science-guide/)
 - [Dataskydd i vardagen](https://vimeo.com/229810391)
+- [Learn Web Development from Harvard University (CS50 Web)](https://www.freecodecamp.org/news/learn-web-development-from-harvard-university-cs50/)
 - [What Every Computer Scientist Should Know About Floating-Point Arithmetic](https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html)
 - [Professional Programming Resources](https://github.com/charlax/professional-programming)
 - [Meltdown and Spectre](https://spectreattack.com/)
@@ -163,10 +168,11 @@ I've set a thumbs down emoji :-1: for the ones that are not active anymore. Look
 - [Codecademy](https://www.codecademy.com/)
 - [EggHead.io](https://egghead.io/) - Video lessons on different webdev topics. Cheap and specialised when you need quick info on specific topics.
 - [Frontend Masters](https://frontendmasters.com/)
-  - [The Frontend Developer Learning Roadmap](https://frontendmasters.com/guides/learning-roadmap/) 
+  - [The Frontend Developer Learning Roadmap](https://frontendmasters.com/guides/learning-roadmap/)
 - [KhanAcademy](https://www.khanacademy.org/)
 - [KnowThen](http://knowthen.com/)
-- :-1: [Lynda.com](http://www.lynda.com/) has tons of material, a bit more focused towards designers than developers.
+- [Lynda.com](http://www.lynda.com/) has tons of material, a bit more focused towards designers than developers.
+- [LevelUp Tutorials](https://levelup.video/)
 - [Nodeschool](http://nodeschool.io/)
 - [Pirple.com](https://pirple.thinkific.com/) - Continuing Education for Software Engineers
 - [Pluralsight](http://pluralsight.com/) have a huge library of educational video for both .net and web developers among other topics.

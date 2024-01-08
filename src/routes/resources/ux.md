@@ -25,6 +25,7 @@ description: UX resources
 - [100 things a UX designer should know](https://learnui.design/blog/100-things-ux-ui-designer-know.html)
 - [A Summary of Principles for User-Interface Design](http://www.sylvantech.com/~talin/projects/ui_design.html)
 - [Graphical user interface](https://en.wikipedia.org/wiki/Graphical_user_interface)
+- [Hack Design UX Course](https://hackdesign.org/)
 - [Hacking User Experience Pluralsight Course](http://www.pluralsight.com/courses/hacking-user-experience)
 - [Patternry](http://patternry.com/) is a tool for building living UI pattern libraries. It helps designers and developers work faster and smarter together
 - [Professional Diploma in UX Design](https://www.uxdesigninstitute.com/landing-page/learn-ux-design-online-diploma-ab)

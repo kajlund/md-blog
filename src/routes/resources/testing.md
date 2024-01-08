@@ -15,6 +15,7 @@ description: Libraries and tools for testing software
 - [DalekJS](http://dalekjs.com/) Cross-browser testing
 - [Jasmine](http://jasmine.github.io/) is a Behavior Driven Development testing framework for JavaScript. It does not rely on browsers, DOM, or any JavaScript framework. Thus it's suited for websites, Node.js projects, or anywhere that JavaScript can run.
 - [Intern](https://theintern.github.io/) is a complete test system for JavaScript designed to help you write and run consistent, high-quality test cases for your JavaScript libraries and applications. It can be used to test any JavaScript code.
+- [Japa](https://japa.dev/docs) - A simple yet powerful testing framework for Node.js
 - [Jest](http://facebook.github.io/jest/) is used by Facebook to test all JavaScript code including React applications.
   - [Majestic](https://github.com/Raathigesh/majestic/) - Zero config GUI for Jest
   - [Mastering Jest](https://michalzalecki.com/ebooks/mastering-jest-tips-tricks-for-javascript-developers.html)
@@ -22,6 +23,7 @@ description: Libraries and tools for testing software
 - [Mocha](http://mochajs.org/) is a feature-rich JavaScript test framework running on Node.js and the browser, making asynchronous testing simple and fun.
 - [Tape](https://github.com/substack/tape) tap-producing test harness for node and browsers
 - [uvu](https://github.com/lukeed/uvu) - is an extremely fast and lightweight test runner for Node.js and the browser.
+- [Vitest](https://vitest.dev/) - A Vite-native unit test framework. It's fast!
 
 ## E2E
 

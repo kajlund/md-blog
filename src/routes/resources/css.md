@@ -43,6 +43,7 @@ description: Various CSS Resources
 - [Kite](http://hiloki.github.io/kitecss/) is a flexible layout helper CSS library
 - [Paper.css](https://www.getpapercss.com/) - the less formal CSS framework. Great for prototyping
 - [PatternFly](https://pf4.patternfly.org/)
+- [Pico.css - Minimal CSS Framework for semantic HTML](https://picocss.com/)
 - [Semantic UI](http://semantic-ui.com/)
 - [Tachyons](http://tachyons.io/)
 - [Tailwind](https://tailwindcss.com/) - A utility-first CSS framework for rapidly building custom user interfaces

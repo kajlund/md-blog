@@ -102,6 +102,7 @@ The definitive source of the best JavaScript libraries, frameworks, and plugins 
 
 - [Alpine.js](https://github.com/alpinejs/alpine) - A rugged, minimal framework for composing JavaScript behavior in your markup.
 - [Angular](https://angular.io/)
+- [Astro](https://astro.build/) - the all-in-one web framework designed for speed. Pull your content from anywhere and deploy everywhere, all powered by your favorite UI components and libraries.
 - [Aurelia](http://aurelia.io/) is a next gen JavaScript client framework for mobile, desktop and web that leverages
   simple conventions to empower your creativity.
 - [elm](https://elm-lang.org/) - A delightful language for reliable webapps.
@@ -155,8 +156,6 @@ The definitive source of the best JavaScript libraries, frameworks, and plugins 
 - [unchanged](https://github.com/planttheidea/unchanged) - A tiny, fast, unopinionated handler for updating JS objects and arrays immutably
 - [underscore.js](http://underscorejs.org/) is a JavaScript library that provides a whole mess of useful functional
 - [uuid](https://github.com/uuidjs/uuid) - Generate RFC-compliant UUIDs in JavaScript
-- [valid.js](https://github.com/dleitee/valid.js) - A simple library for data validation.
-- [validator.js](https://github.com/chriso/validator.js) - A library of string validators and sanitizers.
 - [Xstate](https://github.com/davidkpiano/xstate) - State machines and statecharts for the modern web.
 
 ## Graphics & Animation
@@ -224,6 +223,7 @@ The definitive source of the best JavaScript libraries, frameworks, and plugins 
 - [upup](https://www.talater.com/upup/) - a tiny script that makes sure your site is always there for your users
 - [WebGazer.js](https://webgazer.cs.brown.edu/)
 - [v8n](https://imbrn.github.io/v8n/#what-s-v8n) - validation lib
+- [Zod - TypeScript-first schema validation with static type inference](https://zod.dev/)
 
 ## Numbers
 
@@ -263,6 +263,7 @@ The definitive source of the best JavaScript libraries, frameworks, and plugins 
 ## Search
 
 - [Fuse.js](https://fusejs.io/) - a powerful, lightweight fuzzy-search library, with zero dependencies
+- [uFuzzy](https://github.com/leeoniya/uFuzzy) - A tiny, efficient fuzzy search that doesn't suck.
 
 ## State
 
@@ -275,6 +276,12 @@ The definitive source of the best JavaScript libraries, frameworks, and plugins 
 ## Webcomponents
 
 - [LitElement](https://lit-element.polymer-project.org/) - A simple base class for creating fast, lightweight web components
+
+## Validation
+
+- [valid.js](https://github.com/dleitee/valid.js) - A simple library for data validation.
+- [validator.js](https://github.com/chriso/validator.js) - A library of string validators and sanitizers.
+- [Zod Home](https://zod.dev/) and [Zod repo](https://github.com/colinhacks/zod) - TypeScript-first schema validation with static type inference.
 
 ## Websockets
 

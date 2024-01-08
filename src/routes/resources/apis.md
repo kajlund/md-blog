@@ -37,8 +37,10 @@ description: Resources for building and consuming APIs
 
 ## Tools
 
+- [Bruno](https://www.usebruno.com/) is a Fast and Git-Friendly Opensource API client, aimed at revolutionizing the status quo represented by Postman, Insomnia and similar tools out there.
 - [Doclets](https://doclets.io/) - Beautiful Javascript API-Docs made simple
 - [Documenting Tool for APIs](http://apidocjs.com/)
 - [httpbin.org](https://httpbin.org/) - A simple HTTP Request & Response Service.
 - [Json Generator](http://www.json-generator.com/) - Generate random data
 - [JSON Schema](http://json-schema.org/) - is a vocabulary that allows you to annotate and validate JSON documents.
+- [Mocky](https://designer.mocky.io/) - The world easiest & fastest tool belts to mock your APIs

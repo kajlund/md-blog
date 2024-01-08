@@ -22,6 +22,7 @@ description: Useful software for development and team work
 ## Continuous Integration
 
 - [AppVeyor](https://www.appveyor.com/)
+- [Bazel](https://bazel.build/)
 - [Buddy](https://buddy.works/)
 - [CircleCI](https://circleci.com/)
 - [CodeShip](https://codeship.com/)
@@ -32,6 +33,12 @@ description: Useful software for development and team work
 - [Semaphore](https://semaphoreci.com/)
 - [TeamCity](https://www.jetbrains.com/teamcity/)
 - [Travis CI](https://travis-ci.org/)
+
+## Data modeling
+
+- [DB Designer](https://www.dbdesigner.net/) - Online Database Schema Design and Modeling Tool
+- [Moon Modeler](https://www.datensen.com/data-modeling/moon-modeler-for-databases.html)
+- [SQL DBM](https://sqldbm.com/Home/)
 
 ## Design
 
@@ -47,6 +54,7 @@ description: Useful software for development and team work
 - [Markvis](https://markvis.js.org/#/) - Make visualization in markdown.
 - [Mermaid](https://github.com/knsv/mermaid) - A Javascript based diagramming and charting tool that uses Markdown-inspired text definitions and a renderer to create and modify complex diagrams.
 - [Mindmeister](https://www.mindmeister.com/) - Collaborative mind mapping
+- [Pintora](https://github.com/hikerpig/pintora) - an extensible javascript text-to-diagrams library that works in both browser and Node.js.
 
 ## Documentation
 
@@ -120,10 +128,12 @@ Check out [this fine article](https://websitesetup.org/best-ide-software/) on ID
 ## Hosting
 
 - [Digital Ocean](https://www.digitalocean.com/)
+- [Fly.io](https://fly.io/)
 - [Heroku](https://www.heroku.com/)
 - [linode](https://www.linode.com/)
 - [Netlify](https://netlify.com)
 - [now](https://zeit.co/home) - World-Class Static Hosting
+- [Render](https://dashboard.render.com/)
 
 ## Logistics
 
@@ -174,31 +184,32 @@ Check out [this fine article](https://websitesetup.org/best-ide-software/) on ID
 
 ## Project-/Issue Tracking
 
-- [Flow](https://www.getflow.com/)
+- [Asana](https://app.asana.com/) for handling projects and tasks without email
+- [BamBam](http://www.dobambam.com/)
+- [Basecamp](https://basecamp.com/)
 - [ClubHouse](https://clubhouse.io/)
 - [DaPulse](https://dapulse.com/)
 - [Flow](https://www.getflow.com)
 - [FogBugz](https://www.fogcreek.com/fogbugz/)
-- [Jira](https://www.atlassian.com/software/jira) by Atlassian
-- [Mindomo](https://www.mindomo.com/) - Collaborative mind maps, concept maps, outlines, and Gantt charts
-- [YouTrack](https://www.jetbrains.com/youtrack/) by JetBrains
-- [Trello](https://trello.com/)
-- [Basecamp](https://basecamp.com/)
-- [Pivotal Tracker](http://www.pivotaltracker.com/)
-- [Asana](https://app.asana.com/) for handling projects and tasks without email
 - [HuBoard](https://huboard.com/)
+- [Jira](https://www.atlassian.com/software/jira) by Atlassian
+- [Leankit](http://leankit.com/)
 - [Libreboard](http://libreboard.com/) is an Open Source Kanban board
+- [LiquidPlanner](http://go.liquidplanner.com/plan-with-confidence/)
 - [Matterhorn](https://www.matterhorn.io/)
-- [BamBam](http://www.dobambam.com/)
+- [Mindomo](https://www.mindomo.com/) - Collaborative mind maps, concept maps, outlines, and Gantt charts
+- [Pivotal Tracker](http://www.pivotaltracker.com/)
+- [Plane](https://plane.so/) An open-source software development tool to manage issues, sprints, and product roadmaps with peace of mind.
+- [Trello](https://trello.com/)
 - [VivifyScrum](https://www.vivifyscrum.com/)
 - [Wrike](https://www.wrike.com/)
-- [LiquidPlanner](http://go.liquidplanner.com/plan-with-confidence/)
-- [Leankit](http://leankit.com/)
-- [Flowdock](https://www.flowdock.com/) seems to do similar things.
+- [YouTrack](https://www.jetbrains.com/youtrack/) by JetBrains
+
 
 ## Programming Tools
 
 - [BCrypt Calculator online](https://www.dailycred.com/article/bcrypt-calculator)
+- [Beyond Compare](https://www.scootersoftware.com/)
 - [Diffchecker](https://www.diffchecker.com/) - an online diff tool to compare text differences between two text files online
 - [Meld](http://meldmerge.org/) is an open source cross-platform diff tool
 - [Mackaroo](https://mockaroo.com/) - realistic data mockup generator
@@ -253,6 +264,7 @@ Check out [this fine article](https://websitesetup.org/best-ide-software/) on ID
 
 ## Testing
 
+- [Bruno](https://www.usebruno.com/) is a Fast and Git-Friendly Opensource API client, aimed at revolutionizing the status quo represented by Postman, Insomnia and similar tools out there.
 - [Insomnia](https://insomnia.rest/) - Powerful HTTP toolbelt, in one intuitive app
 
 ## Time-tracking

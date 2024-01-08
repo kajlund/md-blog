@@ -7,16 +7,15 @@ description: Resources for working with the Node.js platform
 
 > {description}
 
-- [NODESCHOOL](https://nodeschool.io/sv/)
+- [NodeSchool.ioL](https://nodeschool.io/sv/)
 - [Awesome Node.js](https://github.com/sindresorhus/awesome-nodejs) - A curated list of delightful Node.js packages and resources.
-- [Best Practices](https://github.com/goldbergyoni/nodebestpractices)
+- [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices)
+  - [Tao of Node](https://alexkondov.com/tao-of-node/) - Design, Architecture & Best Practices
 - [NodeJS Official Docs](https://nodejs.org/en/docs/)
 - [Node Releases](https://github.com/nodejs/Release)
 - [NodeJS ES2015 Support](http://node.green/)
-- [Node Best Practices](https://github.com/i0natan/nodebestpractices)
 - [Learn Node](https://learnnode.com/)
 - [Nodecasts](https://nodecasts.io/)
-- [Node Compatibility Table](https://node.green/)
 - [Practical Node](https://github.com/azat-co/practicalnode)
 - [PM2](http://pm2.keymetrics.io/) - Advanced Node.js Process Manager
 - [Express Boilerplate](https://github.com/danielfsousa/express-rest-es2017-boilerplate)
@@ -34,6 +33,7 @@ description: Resources for working with the Node.js platform
 ## Databases
 
 - [Bookshelf.js](http://bookshelfjs.org/) - Built on [knex.js](http://knexjs.org/)
+- [Drizzle](https://github.com/drizzle-team/drizzle-orm) - a TypeScript ORM for SQL databases designed with maximum type safety in mind
 - [Jedlik](https://github.com/peak-ai/jedlik) is an extensible DynamoDB ODM for Node, written in TypeScript
 - [knex](http://knexjs.org/) - a "batteries included" SQL query builder for Postgres, MSSQL, MySQL, MariaDB, SQLite3, and Oracle
 - [mongoose](http://mongoosejs.com/) - Schema-based elegant mongodb object modeling for node.js using MongoDB
@@ -61,6 +61,7 @@ Have a look at the [Node Frameworks page](http://nodeframework.com/)
 - [Feathers](http://feathersjs.com/) is a very thin wrapper on top of Express and Socket.io
 - [Foal.ts](https://foalts.org/) - The elegant all-in-one NodeJS framework
 - [hapi](http://hapijs.com/) - A rich framework for building applications and services
+- [Hono](https://hono.dev/) - Fast, Lightweight, Web-standards runs on any JavaScript runtime
 - [Fullstack](https://github.com/serverless-components/fullstack-app) - Ready-to-use, serverless, full-stack application built with AWS Lambda, Express.js, React, AWS DynamoDB and AWS HTTP API
 - [Hydra](https://www.hydramicroservice.com/) - a NodeJS package, which facilitates building distributed applications such as Microservices
 - [koa](http://koajs.com/) - Next generation web framework for Node.js
@@ -69,6 +70,7 @@ Have a look at the [Node Frameworks page](http://nodeframework.com/)
 - [micro](https://github.com/zeit/micro) - Asynchronous HTTP microservices
 - [Nest.js](https://nestjs.com/) - A progressive Node.js framework for building efficient, reliable and scalable server-side applications.
 - [Nodal](http://www.nodaljs.com/) is a ES6 API Server and Framework for Node
+- [Node Service Template provides a "battery-included" starter template for building enterprise Node.js webservices.](https://github.com/lokalise/node-service-template)
 - [Restify](http://restify.com/) is a node.js module built specifically to enable you to build correct REST web services.
   - [Cheatsheet](https://gist.github.com/LeCoupa/0664e885fd74152d1f90)
 - [Server.js](https://serverjs.io/) - Simple, modern server framework for REST and Socket.io
@@ -168,11 +170,13 @@ Have a look at the [Node Frameworks page](http://nodeframework.com/)
 - [Agenda](https://github.com/agenda/agenda) - Lightweight job scheduling for Node.js
 - [Bull](https://github.com/OptimalBits/bull) - Premium Queue package for handling jobs and messages in NodeJS.
 - [Bree](https://jobscheduler.net/#/) - is the best job scheduler for Node.js with support for cron, dates, ms, later, and human-friendly strings.
+- [Defer - Zero infrastructure Node.js background jobs](https://www.defer.run/)
 - [Kue](https://github.com/Automattic/kue) - Kue is a priority job queue backed by redis, built for node.js.
 
 ## Templating
 
 - [EJS](http://www.embeddedjs.com/)
+- [eta](https://github.com/eta-dev/eta) templating engine
 - [Handlebars](https://handlebarsjs.com/)
 - [Jade](http://jade-lang.com/) is the default templating language for express but I'm not sold on the syntax.
 - [Marko.js](https://markojs.com)

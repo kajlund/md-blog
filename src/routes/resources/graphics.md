@@ -23,6 +23,7 @@ description: Resources for graphics
 - [Chart.js](http://www.chartjs.org/)
 - [Fluor.js](https://fluorjs.github.io/) - Sprinkle interactivity on your design
 - [lightgallery.js](https://sachinchoolur.github.io/lightgallery.js/) - Full featured javascript lightbox gallery, No dependencies.
+- [loading.io](https://loading.io/css/) Pure CSS loaders
 - [Rough Notation](https://roughnotation.com/) - A small JavaScript library to create and animate annotations on a web page
 - [snapGallery.js](http://neerajdelima.ga/snapGallery/)
 - [Viewer.js](http://fengyuanchen.github.io/viewerjs/) - JavaScript image viewer.
@@ -64,8 +65,10 @@ description: Resources for graphics
 ## Icons
 
 - [Boxicons](https://boxicons.com/) - Simple vector icons carefully crafted for designers & developers
+- [Favicon.io](https://favicon.io/) - Quickly generate your favicon from text, image, or choose from hundreds of emojis
 - [Feather](https://feathericons.com/) - Simply beautiful open source font icons
 - [Font Awesome](https://fontawesome.com/icons?d=gallery&m=free)
+- [Heroicons](https://heroicons.com/) - Beautiful hand-crafted SVG icons, by the makers of Tailwind CSS.
 - [Iconmonstr](https://iconmonstr.com/)
 - [Ionicon](http://ionicons.com/) is Ionic's free icon library
 - [Material Icons](https://fonts.google.com/icons?selected=Material+Icons)
