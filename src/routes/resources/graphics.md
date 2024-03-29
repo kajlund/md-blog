@@ -45,6 +45,11 @@ description: Resources for graphics
 ## Color
 
 - [Color Hex](https://www.color-hex.com/)
+- [HTML Color Codes](https://htmlcolorcodes.com/)
+- [Flat UI Colors](http://flatuicolors.com/)
+
+
+- [Color Hex](https://www.color-hex.com/)
 - [Meyerweb Colorblend](http://meyerweb.com/eric/tools/color-blend/)
 - [colr.org](http://www.colr.org/) - Play with colors and color schemes
 - [0to255](http://www.0to255.com/) - Find color variations
@@ -53,6 +58,7 @@ description: Resources for graphics
 - [Adobe Color CC](https://color.adobe.com)
 - [Colorblendy](http://colorblendy.com/)
 - [webcolourdata](http://webcolourdata.com/) - Provide URL to get colors
+- [ui colors](http://getuicolors.com/)
 
 ## Diagramming
 

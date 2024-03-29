@@ -48,6 +48,7 @@ description: Widgets and Component Libraries for web development
 - [Pikaday](https://github.com/dbushell/Pikaday)
 - [Rome](http://bevacqua.github.io/rome/) - Customizable date (and time) picker. Opt-in UI, no jQuery!
 - [Scheduler](http://docs.dhtmlx.com/scheduler/)
+- [Tempo](https://tempo.formkit.com/) - is a new library in a proud tradition of JavaScript date and time libraries. Inspired by the likes of moment.js, day.js, and date-fns, Tempo is built from the ground up to be as small and easy to use as possible
 - [TimeDropper](http://felicegattuso.com/projects/timedropper/) is a jQuery timepicker plugin.
 - [Timesheet.js](https://sbstjn.github.io/timesheet.js/)
 - [tui.calendar](http://ui.toast.com/tui-calendar/) - A JavaScript calendar that has everything you need.
@@ -112,6 +113,7 @@ description: Widgets and Component Libraries for web development
 - [ag-Grid](https://www.ag-grid.com/) is a JavaScript Data Grid for Building Enterprise Web Applications
 - [Inspire Tree](http://www.inspire-tree.com/) - A lean, clean, blazing fast javascript tree.
 - [List.js](http://www.listjs.com/) - Tiny, invisible and simple, yet powerful and incredibly fast vanilla JavaScript that adds search, sort, filters and flexibility to plain HTML lists, tables, or anything.
+- [Tabulator](https://tabulator.info/) - Easy to use, simple to code, fully featured, interactive JavaScript tables and data grids.
 - [Treed](http://jaredforsyth.com/treed/) - Powerful Tree Editor
 
 ## Misc

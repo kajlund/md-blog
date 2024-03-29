@@ -53,7 +53,7 @@ The definitive source of the best JavaScript libraries, frameworks, and plugins 
 - [grant](https://github.com/simov/grant) - OAuth Middleware for Express, Koa and Hapi
 - [Login-With](https://login-with.com/) - Stateless authentication microservice supporting many providers
 
-## Database- and Storage libraries
+## Database and Stores
 
 - [db-migrate](https://github.com/db-migrate/node-db-migrate) - Database migration framework for node
 - [Eventstore](https://geteventstore.com/)
@@ -63,6 +63,7 @@ The definitive source of the best JavaScript libraries, frameworks, and plugins 
 - [localForage](https://github.com/localForage/localForage) - Offline storage, improved. Wraps IndexedDB, WebSQL, or localStorage using a simple but powerful API.
 - [LokiJS](http://lokijs.org/) - A fast, in-memory document-oriented datastore for node.js, browser and cordova
 - [nanoSQL 2](https://nanosql.io)
+- [Nanostores](https://github.com/nanostores/nanostores) - A tiny state manager for React, React Native, Preact, Vue, Svelte, Solid, Lit, Angular, and vanilla JS.
 - [PouchDB](http://pouchdb.com/) is an open-source JavaScript database inspired by Apache CouchDB that is designed to run well within the browser
 
 ## Bundlers
@@ -107,6 +108,7 @@ The definitive source of the best JavaScript libraries, frameworks, and plugins 
   simple conventions to empower your creativity.
 - [elm](https://elm-lang.org/) - A delightful language for reliable webapps.
 - [ember.js](http://emberjs.com/) - A framework for creating abitious web applications
+- [htmx](https://htmx.org/)  gives you access to [AJAX](https://htmx.org/docs/#ajax), [CSS Transitions](https://htmx.org/docs/#css_transitions), [WebSockets](https://htmx.org/docs/#websockets) and [Server Sent Events](https://htmx.org/docs/#sse) directly in HTML, using [attributes](https://htmx.org/reference/#attributes), so you can build [modern user interfaces](https://htmx.org/examples/) with the [simplicity](https://en.wikipedia.org/wiki/HATEOAS) and [power](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm) of hypertext.
 - [Hyperapp](https://github.com/jorgebucaran/hyperapp) - 1 kB JavaScript micro-framework for building declarative web applications
 - [inertia](https://inertiajs.com/) - Build single-page apps, without building an API.
 - [Material Web Components](https://github.com/material-components/material-components-web-components)

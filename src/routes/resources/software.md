@@ -213,6 +213,7 @@ Check out [this fine article](https://websitesetup.org/best-ide-software/) on ID
 - [Diffchecker](https://www.diffchecker.com/) - an online diff tool to compare text differences between two text files online
 - [Meld](http://meldmerge.org/) is an open source cross-platform diff tool
 - [Mackaroo](https://mockaroo.com/) - realistic data mockup generator
+- [NVM Desktop](https://github.com/1111mp/nvm-desktop) Node version manager desktop
 - [ReqRes](https://reqres.in/) - Test your front-end against a real API
 - [Strong Passwordgenerator](https://passwordsgenerator.net/)
 

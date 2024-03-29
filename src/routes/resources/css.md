@@ -22,13 +22,6 @@ description: Various CSS Resources
 - [Codrops CSS Reference](http://tympanus.net/codrops/css_reference/)
 - [Sitepoint CSS Reference](http://reference.sitepoint.com/css)
 
-## Color
-
-- [Color Hex](https://www.color-hex.com/)
-- [HTML Color Codes](https://htmlcolorcodes.com/)
-- [Flat UI Colors](http://flatuicolors.com/)
-- [ui colors](http://getuicolors.com/)
-
 ## Frameworks
 
 - [Bootstrap](https://getbootstrap.com/)

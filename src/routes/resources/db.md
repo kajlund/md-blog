@@ -13,12 +13,18 @@ description: Database Resources
 - [Getting started with SQL](https://www.sqlshack.com/getting-started-with-sql-programming/)
 - [Mongoose execution time](https://github.com/sabljakovich/mongoose-execution-time) - Mongoose plugin for measuring and logging query execution time.
 
+# Databases
+
+- [SurrealDB](https://surrealdb.com/) - The ultimate multi-model database
+
+
 ## DBAAS
 
 - [Compose](https://www.compose.com/)
 - [ElephantSQL](https://www.elephantsql.com/) - PostgreSQL as a Service
 - [Firebase](https://firebase.google.com/)
 - [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) - MongoDB cloud service
+- [Neon](https://neon.tech/) - The fully managed serverless Postgres with a generous free tier.
 
 ## Tools
 
